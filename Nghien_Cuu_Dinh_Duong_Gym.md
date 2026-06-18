@@ -205,4 +205,25 @@ Nếu bạn muốn phân bổ tài chính một cách khôn ngoan nhất, hãy c
 | **Béo tốt** | **Quả bơ chín** | 160 | **2.0** | 8.5 | **14.7** | Kali, Chất béo không bão hòa đơn tốt nhất |
 | **Chất xơ** | **Bông cải xanh (Súp lơ)** | 34 | **2.8** | 7.0 | 0.4 | Giàu Vitamin C, K, chất chống oxy hóa |
 
+---
+
+## 9. Cẩm Nang Bứt Phá Mức Tạ (Strength Mastery) 🔥💪
+Muốn cơ bắp to, bạn phải tập cho cơ bắp Khỏe trước đã. Tăng sức mạnh (Strength Training) đòi hỏi một hệ thống luyện tập hoàn toàn khác biệt so với tập Phì đại (Hypertrophy).
+
+### 🧠 Lập trình lại Hệ Thần Kinh (CNS)
+Sức mạnh không chỉ đến từ độ lớn của cơ bắp, mà đến từ khả năng **Hệ thần kinh trung ương (CNS)** phát tín hiệu huy động (recruit) được càng nhiều sợi cơ co thắt cùng một lúc càng tốt.
+* **Quy tắc 1-5 Reps:** Mức tạ từ 85% - 100% 1RM (1 Rep Max). Khối lượng tạ cực nặng sẽ "ép" hệ thần kinh phải bật hết công suất.
+* **Nghỉ 3-5 Phút:** Tuyệt đối không nghỉ ngắn. Cơ bắp và hệ thần kinh cần ít nhất 3-5 phút để tái tạo hoàn toàn năng lượng ATP. Nếu bạn thở chưa xong đã vội vào set tiếp theo, bạn đang tập sức bền (Endurance), không phải sức mạnh.
+
+### 📏 Khái Niệm Sống Còn: RPE & RIR
+Đừng bao giờ tập đến sập (Failure) khi đang nâng tạ nặng, điều đó sẽ "nướng chín" hệ thần kinh của bạn và mất vài ngày để hồi phục.
+* **RPE (Rate of Perceived Exertion) - Mức độ gắng sức:** Tập sức mạnh nên giữ ở RPE 8 - RPE 9. Tức là rất nặng nhưng vẫn kiểm soát được form chuẩn.
+* **RIR (Reps in Reserve) - Rep dự trữ:** Luôn chừa lại 1 rep trong bình xăng (RIR 1). Ví dụ: Cảm thấy nâng được tối đa 5 cái, thì chỉ nâng 4 cái rồi cất tạ.
+
+### ⚡ Dinh Dưỡng Bùng Nổ 💪
+* Cắn 1/4 thìa muối biển (Sodium) pha với nước trước tập 30 phút để tăng khối lượng máu và pump cơ.
+* Ăn Carb hấp thu nhanh (Chuối, kẹo dẻo) trong lúc tập để não không bị cạn kiệt Glucose.
+* Không thể thiếu Creatine (3-5g/ngày) để dự trữ nguồn ATP dồi dào nhất.
+
+
 
