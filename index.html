@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cẩm nang nghiên cứu khoa học dinh dưỡng và thực phẩm bổ sung tập gym - Nét Đô">
+    <title>Cẩm Nang Dinh Dưỡng Tập Gym - Avant-Garde / Constructivist Edition</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Share+Tech+Mono&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* --- CONSTRUCTIVISM / TECH-ART / AVANT-GARDE SYSTEM --- */
+        :root {
+            --bg-primary: #E0E0D0;          /* Warm Matte Gray / Beige Paper */
+            --bg-secondary: #D5D5C3;        /* Secondary Paper Layer */
+            --text-primary: #111111;        /* Heavy Ink Black */
+            --text-secondary: #333333;      /* Charcoal Ink */
+            --text-muted: #66665c;
+            
+            --color-accent: #DFFF00;        /* Electric Neon Yellow */
+            --border-line: 0.5px solid #111111; /* Ultra-thin 0.5pt Grid Lines */
+            
+            --font-serif: 'DM Serif Display', Georgia, serif;
+            --font-body: 'PT Serif', Georgia, serif;
+            --font-mono: 'Courier New', 'Share Tech Mono', monospace;
+            
+            --transition: all 0.2s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            /* Paper-like noise/grain effect via CSS pattern */
+            background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+
+        /* Scrollbar matching avant-garde print */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+            border-left: var(--border-line);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #111;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+        }
+
+        /* --- SIDEBAR NAVIGATION (GRID DIVISION) --- */
+        aside {
+            width: 290px;
+            background-color: var(--bg-primary);
+            border-right: var(--border-line);
+            padding: 3.5rem 1.8rem;
+            position: fixed;
+            height: 100vh;
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+            z-index: 10;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            line-height: 0.9;
+            color: #000;
+            border: var(--border-line);
+            padding: 12px;
+            background-color: var(--color-accent);
+            text-align: center;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 4px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .menu-title {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+        }
+
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            border-top: var(--border-line);
+        }
+
+        .menu-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 12px 10px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            border-bottom: var(--border-line);
+            transition: var(--transition);
+        }
+
+        .menu-link i {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .menu-link:hover {
+            background-color: var(--color-accent);
+            padding-left: 18px;
+        }
+
+        .menu-link.active {
+            background-color: #000000;
+            color: var(--color-accent);
+        }
+
+        .menu-link.active i {
+            color: var(--color-accent);
+        }
+
+        /* --- MAIN CONTENT AREA (CONSTRUCTIVIST) --- */
+        main {
+            flex-grow: 1;
+            margin-left: 290px;
+            padding: 4rem 5rem;
+            max-width: 1150px;
+        }
+
+        header {
+            margin-bottom: 4rem;
+            border-bottom: var(--border-line);
+            padding-bottom: 2rem;
+            position: relative;
+        }
+
+        header h1 {
+            font-family: var(--font-serif);
+            font-size: 3.5rem;
+            font-weight: normal;
+            line-height: 1.0;
+            letter-spacing: -2px;
+            color: #000;
+            margin-bottom: 12px;
+        }
+
+        header h1 span {
+            font-family: var(--font-mono);
+            font-size: 1.2rem;
+            display: block;
+            letter-spacing: 4px;
+            color: var(--text-muted);
+            margin-top: 8px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        header p {
+            font-family: var(--font-body);
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Badge/Stamps in Header */
+        .header-stamp {
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: var(--border-line);
+            padding: 8px 12px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            background-color: var(--color-accent);
+            font-weight: bold;
+        }
+
+        /* --- CONTENT ELEMENTS --- */
+        section {
+            margin-bottom: 5rem;
+            scroll-margin-top: 3rem;
+        }
+
+        h2 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            font-weight: normal;
+            letter-spacing: -1px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #000;
+        }
+
+        h2::after {
+            content: "";
+            flex-grow: 1;
+            height: 1px;
+            background-color: #111;
+        }
+
+        h3 {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: normal;
+            margin: 2.2rem 0 1rem 0;
+            color: #000;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        /* Callout Box styled like Bauhaus Manifesto block */
+        .callout {
+            background-color: var(--bg-secondary);
+            border: var(--border-line);
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 20px;
+            position: relative;
+        }
+
+        .callout-icon {
+            font-size: 1.6rem;
+            color: #000;
+        }
+
+        .callout-text h4 {
+            font-family: var(--font-mono);
+            font-size: 0.95rem;
+            font-weight: bold;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
+        }
+
+        .callout-text p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Minimal Avant-Garde Badges */
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: var(--border-line);
+        }
+
+        .badge-a { background-color: var(--color-accent); color: #000; }
+        .badge-b { background-color: #000; color: #fff; }
+        .badge-c { background-color: transparent; color: var(--text-secondary); }
+
+        /* Constructivist Grid Cards (Bauhaus blocky look) */
+        .grid-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background-color: var(--bg-secondary);
+            border: var(--border-line);
+            padding: 2rem;
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            box-shadow: 6px 6px 0px #111;
+            transform: translate(-3px, -3px);
+        }
+
+        .card-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 1.2rem;
+            border-bottom: var(--border-line);
+            padding-bottom: 10px;
+        }
+
+        .card-title-text {
+            font-family: var(--font-serif);
+            font-size: 1.35rem;
+            font-weight: normal;
+            color: #000;
+            letter-spacing: -0.5px;
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 15px;
+        }
+
+        .card li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .card li::before {
+            content: "■";
+            color: var(--text-primary);
+            font-size: 0.6rem;
+            position: absolute;
+            left: 5px;
+            top: 4px;
+        }
+
+        /* --- CONSTRUCTIVIST GRID TABLES --- */
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            border: var(--border-line);
+            margin: 2rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 16px 20px;
+            border: var(--border-line);
+            font-family: var(--font-mono);
+        }
+
+        th {
+            background-color: #111;
+            color: var(--color-accent);
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        td {
+            color: var(--text-primary);
+        }
+
+        tr:hover td {
+            background-color: var(--color-accent);
+            color: #000 !important;
+        }
+
+        .highlight-td {
+            font-weight: bold;
+        }
+
+        .highlight-pro {
+            background-color: rgba(0,0,0,0.05);
+            font-weight: bold;
+        }
+
+        .highlight-cal {
+            font-weight: bold;
+        }
+
+        /* --- RESPONSIVE MOBILE --- */
+        @media (max-width: 900px) {
+            body {
+                flex-direction: column;
+            }
+
+            aside {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding: 2rem 1.5rem;
+            }
+
+            .menu-list {
+                flex-direction: row;
+                overflow-x: auto;
+                padding-bottom: 6px;
+            }
+
+            .menu-link {
+                flex-shrink: 0;
+                font-size: 0.8rem;
+                padding: 10px;
+            }
+
+            main {
+                margin-left: 0;
+                padding: 2.5rem 1.5rem;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Navigation -->
+        <aside>
+            <div class="logo">
+                NÉT ĐÔ
+                <span>[GYM.DOC]</span>
+            </div>
+            <div>
+                <h3 class="menu-title">MỤC LỤC INDEX</h3>
+                <ul class="menu-list">
+                    <li><a href="#tong-quan" class="menu-link active"><i class="fa-solid fa-list-check"></i> 01 / Tổng quan</a></li>
+                    <li><a href="#supplements" class="menu-link"><i class="fa-solid fa-vial"></i> 02 / Bổ sung</a></li>
+                    <li><a href="#whole-foods" class="menu-link"><i class="fa-solid fa-cheese"></i> 03 / Ăn thô</a></li>
+                    <li><a href="#timing" class="menu-link"><i class="fa-solid fa-hourglass-half"></i> 04 / Thời điểm</a></li>
+                    <li><a href="#diet-50k" class="menu-link"><i class="fa-solid fa-coins"></i> 05 / Định mức 50k</a></li>
+                    <li><a href="#nutrition-table" class="menu-link"><i class="fa-solid fa-border-all"></i> 06 / Thành phần</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- Stamp -->
+            <div class="header-stamp">ISSUE NO. 2026.06.18</div>
+
+            <!-- Header Section -->
+            <header>
+                <h1>CAM NANG DINH DUONG<span>FITNESS RESEARCH REPORT</span></h1>
+                <p>Nghiên cứu khoa học thể hình thực tế & Phân tích tối ưu ngân sách - Constructivist & Avant-Garde Edition.</p>
+                <p style="font-family: var(--font-mono); font-size: 0.8rem; margin-top: 10px; font-style: normal; text-transform: uppercase;">
+                    [ <a href="Nghien_Cuu_Dinh_Duong_Gym.md" style="color: #000; background: var(--color-accent); font-weight: bold; text-decoration: none; padding: 2px 6px;">Xem file raw Markdown nguồn (.md)</a> ]
+                </p>
+            </header>
+
+            <!-- SECTION 1: TỔNG QUAN -->
+            <section id="tong-quan">
+                <h2>01. TỔNG QUAN & PHÂN LOẠI KHOA HỌC</h2>
+                <p>
+                    Để xây dựng cơ bắp hiệu quả (phì đại cơ - Hypertrophy) và giữ lượng mỡ tối thiểu, dinh dưỡng đóng vai trò cốt lõi. Tài liệu này tổng hợp dữ liệu khoa học từ Hiệp hội Dinh dưỡng Thể thao Quốc tế (ISSN) và Viện Thể thao Úc (AIS), giúp phân loại rõ ràng các chất bổ sung dựa trên mức độ hiệu quả lâm sàng thực tế, ngăn ngừa lãng phí tài chính vào các loại TPCN vô thưởng vô phạt.
+                </p>
+                <div class="callout">
+                    <div class="callout-icon">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="callout-text">
+                        <h4>NGUYÊN TẮC: "FOOD FIRST"</h4>
+                        <p>Thực phẩm tự nhiên (Whole Foods) luôn chiếm 90% kết quả tổng thể của bạn. Các chất bổ sung (Supplements) chỉ đóng vai trò 10% hỗ trợ, giúp tối ưu hóa hiệu suất ở các giai đoạn nâng cao.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 2: SUPPLEMENTS -->
+            <section id="supplements">
+                <h2>02. THỰC PHẨM BỔ SUNG (SUPPLEMENTS)</h2>
+                <p>Phân loại các chất bổ sung có chứng minh lâm sàng từ cao đến thấp:</p>
+
+                <div class="grid-cards">
+                    <!-- Creatine -->
+                    <div class="card">
+                        <div class="card-header-row">
+                            <h3 class="card-title-text">■ 1. Creatine Monohydrate</h3>
+                            <span class="badge badge-a">HIỆU QUẢ RÕ RỆT</span>
+                        </div>
+                        <p>Được coi là "ông vua" trong thế giới supplements dành cho tăng sức mạnh.</p>
+                        
+                        <h4 style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">Tác dụng chính:</h4>
+                        <ul>
+                            <li><strong>Tái tạo năng lượng ATP:</strong> Chuyển hóa ADP thành ATP ngay lập tức để cấp năng lượng cho các động tác nâng tạ bùng nổ (sức mạnh 1RM).</li>
+                            <li><strong>Tích nước tế bào (Cell Hydration):**</strong> Hút nước vào bên trong sợi cơ (không tích nước ngoài da), giúp cơ bắp trông dày, to tròn hơn và kích thích tổng hợp cơ.</li>
+                            <li><strong>Tăng hiệu suất 5-15%:</strong> Giúp đẩy thêm 1-2 rep tạ ở các hiệp cuối nặng nhất.</li>
+                            <li><strong>Hỗ trợ trí não:</strong> Tăng nhận thức và giảm mệt mỏi tinh thần khi bị thiếu ngủ.</li>
+                        </ul>
+
+                        <h4 style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">Cách lựa chọn dựa trên bảng thành phần:</h4>
+                        <ul>
+                            <li><strong>1. Chỉ chọn Creatine Monohydrate:</strong> Tránh các dạng đắt đỏ khác như *Creatine HCL, Kre-Alkalyn (pH Buffered)* vì chúng đắt gấp 2-3 lần nhưng hiệu quả hấp thu không hề cao hơn.</li>
+                            <li><strong>2. Ưu tiên "Micronized":</strong> Dòng chữ này nghĩa là hạt bột được xay mịn hơn 20 lần, giúp bột dễ hòa tan, giảm thiểu lắng cặn và ngăn ngừa chướng bụng/tiêu chảy nhẹ.</li>
+                            <li><strong>3. Thành phần phụ tối giản:</strong> Đối với loại không vị (unflavored), danh sách thành phần phụ (Other Ingredients) **chỉ được chứa duy nhất Creatine Monohydrate**, không chất tạo ngọt, không hương liệu hay chất độn.</li>
+                            <li><strong>4. Tem chứng chỉ Creapure®:</strong> Nếu có điều kiện, hãy tìm loại có logo này. Đây là nguồn creatine siêu tinh khiết (99.9%+) sản xuất tại Đức, lọc bỏ hoàn toàn các kim loại nặng và tạp chất.</li>
+                            <li><strong>5. Đủ liều (3g - 5g):</strong> Hãy chắc chắn muỗng gạt trong Supplement Facts chứa đúng 3g-5g (3,000mg-5,000mg) cho một serving.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Whey Protein -->
+                    <div class="card">
+                        <div class="card-header-row">
+                            <h3 class="card-title-text">■ 2. Whey Protein</h3>
+                            <span class="badge badge-a">HIỆU QUẢ RÕ RỆT</span>
+                        </div>
+                        <p>Nguồn đạm tinh khiết, tốc độ hấp thu nhanh vượt trội.</p>
+                        <ul>
+                            <li><strong>Cơ chế:</strong> Chứa hàm lượng axit amin thiết yếu cao (EAA, BCAA, đặc biệt là Leucine) giúp kích hoạt tổng hợp cơ.</li>
+                            <li><strong>Hiệu quả:</strong> Phục hồi cơ tức thì ngay sau tập, thay thế bữa phụ nhanh gọn tiện lợi.</li>
+                            <li><strong>Cách dùng:</strong> 1-2 muỗng (scoop)/ngày sau tập hoặc bữa phụ chiều.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Caffeine -->
+                    <div class="card">
+                        <div class="card-header-row">
+                            <h3 class="card-title-text">■ 3. Caffeine</h3>
+                            <span class="badge badge-a">HIỆU QUẢ RÕ RỆT</span>
+                        </div>
+                        <p>Chất tăng hiệu suất tập trung, chống mệt mỏi hiệu quả nhất.</p>
+                        <ul>
+                            <li><strong>Cơ chế:</strong> Kháng lại Adenosine thụ thể gây mệt mỏi, thúc đẩy lưu thông máu.</li>
+                            <li><strong>Hiệu quả:</strong> Giúp tập trung cao độ, đẩy tạ sung hơn.</li>
+                            <li><strong>Cách dùng:</strong> 150-300mg trước tập 30-45 phút (Tránh dùng sau 5h chiều).</li>
+                        </ul>
+                    </div>
+
+                    <!-- Citrulline & Beta-Alanine -->
+                    <div class="card">
+                        <div class="card-header-row">
+                            <h3 class="card-title-text">■ 4. L-Citrulline Malate & Beta-Alanine</h3>
+                            <span class="badge badge-b">CÓ THỂ HIỆU QUẢ</span>
+                        </div>
+                        <p>Các chất hỗ trợ bơm máu và tăng sức chịu đựng cơ học.</p>
+                        <ul>
+                            <li><strong>L-Citrulline (6-8g trước tập):</strong> Thúc đẩy sản sinh Nitric Oxide (NO) làm giãn nở mạch máu, bơm nhiều chất dinh dưỡng vào cơ.</li>
+                            <li><strong>Beta-Alanine (3-5g/ngày):</strong> Tạo chất đệm Carnosine chống tích tụ axit lactic giúp làm chậm mỏi cơ. Gây ngứa da nhẹ vô hại.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Omega-3 & D3K2 -->
+                    <div class="card">
+                        <div class="card-header-row">
+                            <h3 class="card-title-text">■ 5. Omega-3 & Vitamin D3 + K2</h3>
+                            <span class="badge badge-c">HỖ TRỢ PHỤC HỒI</span>
+                        </div>
+                        <p>Hỗ trợ bảo vệ sức khỏe khớp và mức hormone nội sinh.</p>
+                        <ul>
+                            <li><strong>Dầu cá Omega-3 (2 viên/ngày):</strong> Giảm viêm khớp do tập nặng, tăng nhạy insulin của tế bào cơ.</li>
+                            <li><strong>D3 + K2 (1 viên/sáng):</strong> Tối ưu canxi vào xương, hỗ trợ quá trình sản sinh testosterone tự nhiên.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 3: WHOLE FOODS -->
+            <section id="whole-foods">
+                <h2>03. THỰC PHẨM ĂN THÔ TỰ NHIÊN (WHOLE FOODS)</h2>
+                <p>
+                    Để cơ thể tăng cơ nạc (Lean Bulk) thành công, bạn cần duy trì thặng dư nhẹ khoảng 150-200 kcal/ngày và phân chia tỷ lệ chất dinh dưỡng đa lượng (Macros) như sau:
+                </p>
+                
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>CHẤT DINH DƯỠNG</th>
+                                <th>ĐỊNH MỨC / NGÀY</th>
+                                <th>NGUỒN THỰC PHẨM KHUYẾN NGHỊ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="highlight-td">Chất Đạm (Protein)</td>
+                                <td>120g - 130g (2g/kg)</td>
+                                <td>Ức gà fillet, thịt bò thăn, trứng gà, cá rô phi, cá ngừ, đậu hũ.</td>
+                            </tr>
+                            <tr>
+                                <td class="highlight-td">Tinh Bột (Carbs)</td>
+                                <td>280g - 300g</td>
+                                <td>Gạo lứt, khoai lang luộc, yến mạch nguyên cám, gạo tẻ thường.</td>
+                            </tr>
+                            <tr>
+                                <td class="highlight-td">Chất Béo (Fats)</td>
+                                <td>60g - 65g</td>
+                                <td>Quả bơ chín, lòng đỏ trứng gà, dầu oliu nguyên chất, lạc, hạnh nhân.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SECTION 4: TIMING -->
+            <section id="timing">
+                <h2>04. THỜI ĐIỂM NẠP & PHƯƠNG PHÁP 16/8 FASTING</h2>
+                
+                <h3>Bữa ăn trước tập (Pre-workout)</h3>
+                <p>Ăn trước tập 1.5 - 2 tiếng. Nên nạp nguồn Carb phức hợp (khoai lang, yến mạch) kết hợp đạm vừa phải để cơ bắp dự trữ đủ glycogen nâng tạ, tránh ăn béo nhiều gây đầy bụng.</p>
+                
+                <h3>Bữa ăn sau tập (Post-workout)</h3>
+                <p>Ăn trong vòng 30 phút - 1 tiếng sau tập. Bổ sung Carb nhanh (chuối chín) + Đạm hấp thu nhanh (Whey/ức gà) để khôi phục nhanh năng lượng bị mất và vá các vết rách cơ.</p>
+                
+                <h3>Đặc biệt: Tập gym sáng khi nhịn ăn gián đoạn (16/8)</h3>
+                <div class="callout">
+                    <div class="callout-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div class="callout-text">
+                        <h4>MẸO TỐI ƯU GYM SÁNG + NHỊN ĂN SÁNG</h4>
+                        <p>Khoa học chứng minh tập khi nhịn ăn (fasted) không làm mất cơ nếu tổng calo/protein cả ngày đủ. Tuy nhiên, tập nặng bụng rỗng dễ đuối tạ và thiếu đạm sau tập. Giải pháp:</p>
+                        <ul style="list-style: none; margin-top: 10px; padding-left: 0;">
+                            <li style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);"><span style="color:var(--text-primary);">[METHOD 1]</span> Đổi khung ăn 12h-20h sang <strong>10h-18h</strong>. Tập xong lúc 9h30 ăn ngay bữa đầu lúc 10h.</li>
+                            <li style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);"><span style="color:var(--text-primary);">[METHOD 2]</span> Hoặc bẻ luật nhẹ ăn 1 quả chuối + ly cafe không đường trước tập (~90 calo) để khỏe cơ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 5: DIET 50K -->
+            <section id="diet-50k">
+                <h2>05. THỰC ĐƠN TỐI ƯU CHI PHÍ 50.000Đ/NGÀY</h2>
+                <p>Thực đơn tiết kiệm nhưng vẫn đảm bảo 138g Protein chất lượng và khoảng 2120 kcal thặng dư tăng cơ nạc nhẹ:</p>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>THỰC PHẨM / TPCN</th>
+                                <th>ĐỊNH LƯỢNG</th>
+                                <th>CHI PHÍ (VND)</th>
+                                <th>PROTEIN</th>
+                                <th>LƯỢNG CALO</th>
+                                <th>VAI TRÒ THỰC TẾ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ức gà fillet</td>
+                                <td>250g</td>
+                                <td class="highlight-td">16,000</td>
+                                <td class="highlight-pro">77g</td>
+                                <td class="highlight-cal">300 kcal</td>
+                                <td>Nguồn đạm nạc chính, cực rẻ</td>
+                            </tr>
+                            <tr>
+                                <td>Trứng gà công nghiệp</td>
+                                <td>3 quả</td>
+                                <td class="highlight-td">9,000</td>
+                                <td class="highlight-pro">18g</td>
+                                <td class="highlight-cal">210 kcal</td>
+                                <td>Chất béo tốt + Đạm sinh học cao</td>
+                            </tr>
+                            <tr>
+                                <td>Đậu hũ (Đậu phụ)</td>
+                                <td>1 bìa (150g)</td>
+                                <td class="highlight-td">3,500</td>
+                                <td class="highlight-pro">12g</td>
+                                <td class="highlight-cal">110 kcal</td>
+                                <td>Đạm thực vật lành tính, siêu rẻ</td>
+                            </tr>
+                            <tr>
+                                <td>Gạo tẻ nấu cơm</td>
+                                <td>300g (khô)</td>
+                                <td class="highlight-td">6,000</td>
+                                <td class="highlight-pro">21g</td>
+                                <td class="highlight-cal">1050 kcal</td>
+                                <td>Tinh bột chính cung cấp năng lượng</td>
+                            </tr>
+                            <tr>
+                                <td>Lạc (Đậu phộng) rang</td>
+                                <td>30g</td>
+                                <td class="highlight-td">2,000</td>
+                                <td class="highlight-pro">7g</td>
+                                <td class="highlight-cal">170 kcal</td>
+                                <td>Duy trì nội tiết tố Testosterone</td>
+                            </tr>
+                            <tr>
+                                <td>Chuối chín</td>
+                                <td>2 quả</td>
+                                <td class="highlight-td">3,000</td>
+                                <td class="highlight-pro">2g</td>
+                                <td class="highlight-cal">180 kcal</td>
+                                <td>Carb ăn lót dạ trước tập</td>
+                            </tr>
+                            <tr>
+                                <td>Rau xanh + Gia vị</td>
+                                <td>Tùy chọn</td>
+                                <td class="highlight-td">4,000</td>
+                                <td class="highlight-pro">1g</td>
+                                <td class="highlight-cal">100 kcal</td>
+                                <td>Chất xơ, vitamin hỗ trợ tiêu hóa</td>
+                            </tr>
+                            <tr>
+                                <td>Creatine Monohydrate</td>
+                                <td>5g</td>
+                                <td class="highlight-td">6,500</td>
+                                <td class="highlight-pro">0g</td>
+                                <td class="highlight-cal">0 kcal</td>
+                                <td>Tối ưu 10-15% sức mạnh tập nặng</td>
+                            </tr>
+                            <tr style="background-color: var(--color-accent); font-weight: bold; color: #000;">
+                                <td style="color: #000;">TỔNG CỘNG ĐỊNH MỨC</td>
+                                <td style="color: #000;">-</td>
+                                <td style="color: #000;">50,000 VND</td>
+                                <td style="color: #000;">138g Protein</td>
+                                <td style="color: #000;">~2120 kcal</td>
+                                <td style="color: #000;">Chế độ Lean Bulk giá rẻ tối ưu</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>⏱️ Lịch trình phân bổ ăn uống</h3>
+                <div class="grid-cards">
+                    <div class="card">
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[07:30] PRE-WORKOUT:</strong> 2 quả chuối chín + 5g Creatine pha nước lọc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[10:00] BỮA SÁNG/TRƯA:</strong> 1.5 chén cơm + 125g ức gà áp chảo + Rau muống luộc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[14:00] BỮA PHỤ CHIỀU:</strong> 1 chén cơm lớn + 2 quả trứng gà ốp la + 1/2 bìa đậu hũ sốt cà chua.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[18:00] BỮA TỐI:</strong> 1.5 chén cơm + 125g ức gà + 1 quả trứng luộc + 1/2 bìa đậu hũ luộc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[21:00] BỮA PHỤ ĐÊM:</strong> Ăn 1 nắm lạc rang (30g) cung cấp chất béo tốt.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 6: NUTRITION TABLE -->
+            <section id="nutrition-table">
+                <h2>06. BẢNG TRA THÀNH PHẦN DINH DƯỠNG THỰC PHẨM</h2>
+                <p>Chi tiết lượng Calo, Đạm (Protein), Đường (Carbs), và Béo (Fats) trên 100g thực phẩm tươi sống:</p>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NHÓM THỰC PHẨM</th>
+                                <th>TÊN THỰC PHẨM</th>
+                                <th>CALO (KCAL)</th>
+                                <th>PROTEIN (G)</th>
+                                <th>CARBS (G)</th>
+                                <th>FATS (G)</th>
+                                <th>VI CHẤT NỔI BẬT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Ức gà fillet</td>
+                                <td>120</td>
+                                <td class="highlight-pro">22.5</td>
+                                <td>0.0</td>
+                                <td>2.6</td>
+                                <td>Vitamin B6, Niacin, đạm nạc</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Thịt thăn bò</td>
+                                <td>140</td>
+                                <td class="highlight-pro">22.0</td>
+                                <td>0.0</td>
+                                <td>5.5</td>
+                                <td>Sắt, Kẽm, Creatine tự nhiên</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Trứng nguyên quả (1 quả)</td>
+                                <td>72</td>
+                                <td class="highlight-pro">6.3</td>
+                                <td>0.4</td>
+                                <td>4.8</td>
+                                <td>Vitamin D, Vitamin A, Choline</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Lòng trắng trứng (1 quả)</td>
+                                <td>17</td>
+                                <td class="highlight-pro">3.6</td>
+                                <td>0.2</td>
+                                <td>0.1</td>
+                                <td>Albumin tinh khiết, dễ hấp thụ</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Cá rô phi phi-lê</td>
+                                <td>96</td>
+                                <td class="highlight-pro">20.0</td>
+                                <td>0.0</td>
+                                <td>1.7</td>
+                                <td>Selenium, Vitamin B12, giá rẻ</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Cá hồi sống</td>
+                                <td>208</td>
+                                <td class="highlight-pro">20.0</td>
+                                <td>0.0</td>
+                                <td>13.0</td>
+                                <td>Rất giàu Omega-3 kháng viêm</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm sạch</td>
+                                <td>Tôm sú tươi</td>
+                                <td>85</td>
+                                <td class="highlight-pro">20.0</td>
+                                <td>0.0</td>
+                                <td>0.9</td>
+                                <td>Canxi, Kẽm, đồng</td>
+                            </tr>
+                            <tr>
+                                <td>Đạm thực vật</td>
+                                <td>Đậu hũ (Đậu phụ)</td>
+                                <td>76</td>
+                                <td class="highlight-pro">8.0</td>
+                                <td>1.9</td>
+                                <td>4.8</td>
+                                <td>Canxi thực vật, Isoflavones</td>
+                            </tr>
+                            <tr>
+                                <td>Tinh bột</td>
+                                <td>Gạo tẻ / Gạo trắng</td>
+                                <td>360</td>
+                                <td class="highlight-pro">6.5</td>
+                                <td class="highlight-td">80.0</td>
+                                <td>0.6</td>
+                                <td>Carb nhanh tiêu hóa dễ</td>
+                            </tr>
+                            <tr>
+                                <td>Tinh bột</td>
+                                <td>Gạo lứt</td>
+                                <td>354</td>
+                                <td class="highlight-pro">7.5</td>
+                                <td class="highlight-td">77.0</td>
+                                <td>2.7</td>
+                                <td>Chất xơ, Vitamin B1</td>
+                            </tr>
+                            <tr>
+                                <td>Tinh bột</td>
+                                <td>Yến mạch nguyên cám</td>
+                                <td>389</td>
+                                <td class="highlight-pro">16.9</td>
+                                <td class="highlight-td">66.0</td>
+                                <td>6.9</td>
+                                <td>Chất xơ Beta-Glucan, Magie</td>
+                            </tr>
+                            <tr>
+                                <td>Tinh bột</td>
+                                <td>Khoai lang luộc</td>
+                                <td>86</td>
+                                <td class="highlight-pro">1.6</td>
+                                <td class="highlight-td">20.0</td>
+                                <td>0.1</td>
+                                <td>GI thấp, Kali chống chuột rút</td>
+                            </tr>
+                            <tr>
+                                <td>Tinh bột</td>
+                                <td>Chuối chín</td>
+                                <td>89</td>
+                                <td class="highlight-pro">1.1</td>
+                                <td class="highlight-td">22.8</td>
+                                <td>0.3</td>
+                                <td>Đường hấp thu nhanh, Kali</td>
+                            </tr>
+                            <tr>
+                                <td>Béo tốt</td>
+                                <td>Lạc (Đậu phộng) rang</td>
+                                <td>567</td>
+                                <td class="highlight-pro">25.8</td>
+                                <td>16.0</td>
+                                <td class="highlight-td">49.2</td>
+                                <td>Vitamin E, béo tốt thực vật</td>
+                            </tr>
+                            <tr>
+                                <td>Béo tốt</td>
+                                <td>Quả bơ chín</td>
+                                <td>160</td>
+                                <td class="highlight-pro">2.0</td>
+                                <td>8.5</td>
+                                <td class="highlight-td">14.7</td>
+                                <td>Béo không bão hòa đơn tốt nhất</td>
+                            </tr>
+                            <tr>
+                                <td>Chất xơ</td>
+                                <td>Bông cải xanh (Súp lơ)</td>
+                                <td>34</td>
+                                <td class="highlight-pro">2.8</td>
+                                <td>7.0</td>
+                                <td>0.4</td>
+                                <td>Vitamin C, K, chất xơ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Active sidebar link on scroll -->
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".menu-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
