@@ -1064,6 +1064,39 @@
                         padding-bottom: 8px;
                         margin-bottom: 10px;
                     }
+                    .exercise-image-container {
+                        text-align: center;
+                        margin: 1rem 0;
+                        background: #fff;
+                    }
+                    .exercise-image {
+                        max-width: 280px;
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        margin: 0 auto;
+                        border: 1px solid var(--fg);
+                        padding: 5px;
+                        background: #fff;
+                        filter: grayscale(100%);
+                        mix-blend-mode: multiply;
+                        transition: transform 0.2s ease, filter 0.2s ease;
+                    }
+                    .exercise-image:hover {
+                        transform: scale(1.03);
+                        filter: none;
+                    }
+                    .superset-images {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 15px;
+                        margin: 1rem 0;
+                    }
+                    @media (max-width: 500px) {
+                        .superset-images {
+                            grid-template-columns: 1fr;
+                        }
+                    }
                     .anatomy-container {
                         display: grid;
                         grid-template-columns: 1fr 1fr;
@@ -1098,6 +1131,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps | Nghỉ 2.5 phút (RPE 7-8)</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ ngực lớn (Chest), Vai trước, Tay sau (Triceps)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Khép xương bả vai chặt xuống mặt ghế phẳng, hạ đòn tạ chạm nhẹ ngực và đẩy lên dứt khoát.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Bench_Press_-_Medium_Grip/0.jpg" alt="Bench Press" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1108,6 +1144,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ xô rộng (Lats), Lưng trên, Tay trước (Biceps)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Ưỡn nhẹ ngực lên, dùng cùi chỏ kéo thanh xà về phía xương quai xanh, ép chặt cơ xô lại.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg" alt="Lat Pulldown" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1118,6 +1157,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ vai toàn diện (chủ yếu Vai trước/Vai giữa)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Ngồi tựa ghế khoảng 80 độ, đẩy tạ hướng thẳng lên qua đầu, không khóa khớp khủy tay ở đỉnh.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Shoulder_Press/0.jpg" alt="Dumbbell Shoulder Press" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1128,6 +1170,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ lưng giữa (Rhomboids), Cơ xô (Lats)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Ngồi thẳng lưng, kéo tay cầm chữ V sát vào bụng dưới, cảm nhận xương bả vai ép chặt vào nhau.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Cable_Rows/0.jpg" alt="Seated Cable Row" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1138,6 +1183,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 12-15 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ vai giữa (Lateral Delts - Tạo độ rộng vai)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đứng thẳng người, đưa tạ đơn sang hai bên theo góc 30 độ (mặt phẳng scapular), khủy tay hơi cong.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Lateral_Raise/0.jpg" alt="Lateral Raise" class="exercise-image">
+                        </div>
                     </div>
                 </div>
 
@@ -1164,6 +1212,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps | Nghỉ 3 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Đùi trước (Quadriceps), Cơ mông lớn, Core</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Ôm tạ đơn sát ngực, hạ hông xuống sâu đùi song song mặt đất, phát lực từ gót chân đứng thẳng lên.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Goblet_Squat/0.jpg" alt="Goblet Squat" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1174,6 +1225,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Đùi sau (Hamstrings), Mông, Lưng dưới</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đẩy hông ra sau (Hinge), giữ tạ sát chân, hạ tạ xuống đến khi đùi sau căng hết cỡ thì dùng cơ mông kéo tạ thẳng lên.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/0.jpg" alt="Romanian Deadlift" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1184,6 +1238,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Đùi trước, Mông</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đặt chân rộng bằng vai ở giữa bàn đạp, hạ gối từ từ về phía ngực, tránh để mông bị nhấc lên khỏi ghế.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg" alt="Leg Press" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1194,6 +1251,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 15-20 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Bắp chân (Calves)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đứng mép bục, nhón gót chân lên tối đa giữ 1 giây, hạ xuống sâu để kéo giãn bắp chân.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Calf_Raises/0.jpg" alt="Standing Calf Raise" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1204,6 +1264,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 45-60 giây | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ bụng trung tâm (Core)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Giữ người thẳng từ đầu tới chân, siết cơ bụng và mông lại, tránh vồng lưng dưới.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg" alt="Plank" class="exercise-image">
+                        </div>
                     </div>
                 </div>
 
@@ -1219,6 +1282,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps | Nghỉ 2.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ ngực trên (Clavicular Head), Vai trước</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Nằm ghế dốc lên 30 độ, hạ tạ đơn xuống sát ngực trên rồi đẩy lên theo hướng hướng chụm vào nhau.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/0.jpg" alt="Incline Dumbbell Bench Press" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1229,6 +1295,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ xô rộng (Lats), Lưng trên</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Dùng máy trợ lực gối, kéo người lên cho đến khi ngực chạm thanh xà, siết cơ xô.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Assisted_Pull-Up/0.jpg" alt="Assisted Pull-up" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1239,6 +1308,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 10-12 Reps | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Lưng giữa (Rhomboids), Xô (Lats)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Nằm úp ngực lên ghế dốc 45 độ, kéo tạ đơn chéo về phía hông, siết cơ lưng.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Row/0.jpg" alt="Chest Supported Row" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1249,6 +1321,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 15 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ vai sau, Cơ lưng trên (Cải thiện tư thế gù vai)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Kéo dây cáp về phía trán, dang rộng khuỷu tay sang hai bên, xoay ngoài vai để ép vai sau.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Face_Pull/0.jpg" alt="Face Pull" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1259,6 +1334,16 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 12 Reps mỗi bên | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ tay trước (Biceps) và Cơ tay sau (Triceps)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Cuốn tay trước xong lập tức chuyển sang nhấn cáp tay sau mà không nghỉ giữa hiệp.</em></p>
+                        <div class="superset-images">
+                            <div style="border: 1px solid var(--fg); padding: 5px; background: #fff; text-align: center;">
+                                <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/0.jpg" alt="Bicep Curl" class="exercise-image" style="border: none; padding: 0;">
+                                <p style="font-size: 0.8rem; margin-top: 5px;"><strong>Tay trước:</strong> Bicep Curl</p>
+                            </div>
+                            <div style="border: 1px solid var(--fg); padding: 5px; background: #fff; text-align: center;">
+                                <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown/0.jpg" alt="Tricep Pushdown" class="exercise-image" style="border: none; padding: 0;">
+                                <p style="font-size: 0.8rem; margin-top: 5px;"><strong>Tay sau:</strong> Tricep Pushdown</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -1274,6 +1359,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps | Nghỉ 2.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Đùi sau (Hamstrings), Mông</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đặt chân ở mép trên cùng của bàn đạp, tập trung đẩy tạ từ gót chân để ăn vào đùi sau.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg" alt="High-Foot Leg Press" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1284,6 +1372,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 8-10 Reps mỗi chân | Nghỉ 2 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Đùi trước, Mông, Khắc phục lệch cơ chân</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Đặt một chân lên ghế sau, chân trước hạ xuống vuông góc 90 độ, kiểm soát thăng bằng lõi.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Split_Squat_with_Dumbbells/0.jpg" alt="Bulgarian Split Squat" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1294,6 +1385,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 12-15 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cô lập đùi trước (Quadriceps)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Ngồi chắc chắn trên ghế, đá chân thẳng lên gồng chặt cơ đùi trước trong 1 giây ở đỉnh.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Extensions/0.jpg" alt="Leg Extension" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1304,6 +1398,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 12-15 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cô lập đùi sau (Hamstrings)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Móc gót chân xuống dưới đệm, gồng chặt đùi sau.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Leg_Curl/0.jpg" alt="Seated Leg Curl" class="exercise-image">
+                        </div>
                     </div>
 
                     <div class="exercise-card">
@@ -1314,6 +1411,9 @@
                         <p><strong>Thông số:</strong> 3 Hiệp x 12-15 Reps | Nghỉ 1.5 phút</p>
                         <p><strong>Cơ tác động chính:</strong> Cơ bụng dưới (Lower Abs)</p>
                         <p style="margin-top: 8px; font-size: 0.9rem; color: #444; border-left: 3px solid var(--accent); padding-left: 8px;"><em>Kỹ thuật: Co gối hướng sát về ngực, cuộn xương chậu nhẹ để kích hoạt sâu bụng dưới.</em></p>
+                        <div class="exercise-image-container">
+                            <img src="https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg" alt="Hanging Knee Raise" class="exercise-image">
+                        </div>
                     </div>
                 </div>
 
