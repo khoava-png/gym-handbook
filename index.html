@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cẩm nang nghiên cứu khoa học dinh dưỡng và thực phẩm bổ sung tập gym - Nét Đô">
     <title>GYM - Art Director Edition</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,10 +116,14 @@
             letter-spacing: -1px;
         }
 
+        .menu-link i { margin-right: 12px; font-size: 1.2rem; color: #666; transition: all 0.2s; }
         .menu-link:hover {
-            background-color: var(--accent);
-            padding-left: 1rem;
+            background: linear-gradient(90deg, #FFCC00, #FF5722);
+            padding-left: 1.5rem;
+            color: #111;
         }
+        .menu-link:hover i { color: #111; transform: scale(1.2); }
+        .menu-link.active i { color: #fff; }
 
         .menu-link.active {
             background-color: var(--fg);
@@ -408,18 +414,15 @@
             <div>
                 <h3 class="menu-title">MỤC LỤC INDEX</h3>
                 <ul class="menu-list">
-                    <li><a href="#tong-quan" class="menu-link active">01 / Tổng
-                            quan</a></li>
-                    <li><a href="#supplements" class="menu-link">02 / Bổ sung</a></li>
-                    <li><a href="#whole-foods" class="menu-link">03 / Ăn thô</a></li>
-                    <li><a href="#timing" class="menu-link">04 / Thời
-                            điểm</a></li>
-                    <li><a href="#diet-50k" class="menu-link">05 / Định mức 50k</a>
-                    </li>
-                    <li><a href="#nutrition-table" class="menu-link">06 / Thành
-                            phần</a></li>
-                                    <li><a href="#creatine" class="menu-link">07 / Creatine</a></li>
-                    <li><a href="#lich-tap" class="menu-link">08 / Lịch tập</a></li>
+                    <li><a href="#tong-quan" class="menu-link active"><i class="fa-solid fa-book-open"></i> 01 / Tổng quan</a></li>
+                    <li><a href="#supplements" class="menu-link"><i class="fa-solid fa-capsules"></i> 02 / Bổ sung</a></li>
+                    <li><a href="#whole-foods" class="menu-link"><i class="fa-solid fa-drumstick-bite"></i> 03 / Ăn thô</a></li>
+                    <li><a href="#timing" class="menu-link"><i class="fa-regular fa-clock"></i> 04 / Thời điểm</a></li>
+                    <li><a href="#diet-50k" class="menu-link"><i class="fa-solid fa-wallet"></i> 05 / Định mức 50k</a></li>
+                    <li><a href="#nutrition-table" class="menu-link"><i class="fa-solid fa-table-list"></i> 06 / Thành phần</a></li>
+                    <li><a href="#creatine" class="menu-link"><i class="fa-solid fa-bolt"></i> 07 / Creatine</a></li>
+                    <li><a href="#lich-tap" class="menu-link"><i class="fa-solid fa-calendar-days"></i> 08 / Lịch tập</a></li>
+                    <li><a href="#suc-manh" class="menu-link"><i class="fa-solid fa-dumbbell"></i> 09 / Sức mạnh 🚀</a></li>
                 </ul>
             </div>
         </aside>
@@ -1024,6 +1027,40 @@
                             <li>Chu kỳ hóa (Periodization)</li>
                             <li>Drop Sets, Superset</li>
                             <li>Rest-Pause Technique</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        
+            <!-- SECTION 9: SỨC MẠNH -->
+            <section id="suc-manh">
+                <h2>09. BỨT PHÁ SỨC MẠNH TẠ NẶNG 🔥</h2>
+                <p>Khỏe hơn để to hơn. Sức mạnh đến từ việc tối ưu hóa <strong>Hệ Thần Kinh Trung Ương (CNS)</strong>, chứ không chỉ là kích thước cơ bắp.</p>
+
+                <div class="callout" style="background-color: #f8f9fa; border-color: #FF5722;">
+                    <div class="callout-text">
+                        <h4><i class="fa-solid fa-brain" style="color: #FF5722; margin-right: 8px;"></i> Lập trình lại hệ thần kinh</h4>
+                        <p>Tập nặng <strong>(85-100% 1RM)</strong> với số Reps thấp (1-5 Reps) sẽ bắt ép não bộ phải huy động toàn bộ các sợi cơ tham gia nâng tạ. Nghỉ giữa các hiệp tạ cực nặng phải dài từ <strong>3 đến 5 phút</strong> để hồi ATP.</p>
+                    </div>
+                </div>
+
+                <h3>Quy tắc RPE & RIR 📏</h3>
+                <div class="grid-cards" style="grid-template-columns: 1fr 1fr;">
+                    <div class="card">
+                        <div class="card-title-text"><i class="fa-solid fa-battery-three-quarters"></i> RPE 8-9</div>
+                        <p><strong>Rate of Perceived Exertion (Cảm nhận độ khó)</strong></p>
+                        <ul>
+                            <li>Tập sức mạnh nên kết thúc ở mức RPE 8-9 (Cảm giác chỉ có thể làm thêm 1-2 cái nữa là sập).</li>
+                            <li>Không bao giờ nâng đến thất bại (Failure) vì sẽ làm "cháy" hệ thần kinh, mất nhiều ngày phục hồi.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-title-text"><i class="fa-solid fa-gas-pump"></i> RIR 1</div>
+                        <p><strong>Reps In Reserve (Sức dự trữ)</strong></p>
+                        <ul>
+                            <li>Luôn chừa lại 1 rep trong bình xăng.</li>
+                            <li>Nếu bạn tính nâng 5 cái, hãy cầm mức tạ mà bạn chắc chắn lên được 6 cái, nhưng chỉ nâng đúng 5 cái rồi cất.</li>
                         </ul>
                     </div>
                 </div>
