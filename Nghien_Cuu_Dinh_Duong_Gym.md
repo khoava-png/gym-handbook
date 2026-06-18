@@ -207,7 +207,68 @@ Nếu bạn muốn phân bổ tài chính một cách khôn ngoan nhất, hãy c
 
 ---
 
+## 7. Giải Phẫu Thực Phẩm Bổ Sung: Creatine Monohydrate ⚡
+Creatine không phải là hormone hay steroid. Nó là một hợp chất tự nhiên có sẵn trong tế bào cơ, đóng vai trò tái tạo năng lượng phân tử ATP khi nâng tạ nặng hoặc bứt tốc lực.
+
+![Creatine Supplement](creatine.png)
+
+### Cơ chế & Hiểu lầm:
+* **Tích nước nội bào:** Creatine kéo nước vào trong tế bào cơ (Volumization), giúp cơ bắp căng mọng, đầy đặn. Hoàn toàn không gây tích nước dưới da (phù nề).
+* **Hiệu suất:** Giúp bạn bứt phá thêm 1-2 reps cuối cùng trong các hiệp tạ nặng nhất.
+
+### Giao thức Nạp (Dosing):
+* **Nạp đều (Khuyên dùng):** 3 - 5g mỗi ngày, uống liên tục kể cả ngày nghỉ. Cơ bắp sẽ bão hòa sau 3-4 tuần.
+* **Nạp nhanh:** 20g/ngày (chia 4 lần) trong 5-7 ngày đầu. Tác dụng nhanh hơn nhưng dễ gây kích ứng dạ dày.
+
+---
+
+## 8. Nguyên Lý Lõi & Lộ Trình Lịch Tập 3 Giai Đoạn 📅
+Nguyên tắc cốt lõi của mọi lịch tập là **Quá Tải Lũy Tiến (Progressive Overload)** - tăng tạ, tăng số rep, hoặc giảm thời gian nghỉ theo thời gian.
+
+### 📊 Lộ Trình Lịch Tập 3 Giai Đoạn
+
+#### Giai đoạn 1: Tân Binh (Beginner / 0 - 6 tháng)
+* **Lịch tập:** Full Body (Toàn thân) 3 ngày/tuần (Ví dụ: Thứ 2 - 4 - 6).
+* **Trọng tâm:** Các bài tập đa khớp (Compound) như Squat, Deadlift, Bench Press.
+* **Tần suất:** Cơ thể mới tập sẽ phục hồi rất nhanh và phản ứng tốt với tần suất tập cao để học kỹ thuật chuyển động.
+
+#### Giai đoạn 2: Trung Cấp (Intermediate / 6 tháng - 2 năm)
+* **Lịch tập:** Upper/Lower (Thân trên/Thân dưới) 4 ngày/tuần hoặc Push/Pull/Legs (PPL) 6 ngày/tuần.
+* **Trọng tâm:** Gia tăng thể tích tập luyện (Volume), bổ sung các bài tập cô lập (Isolation) để kích thích phì đại cơ.
+
+#### Giai đoạn 3: Cao Cấp (Advanced / Chuyên sâu)
+* **Lịch tập:** Bro-Split (1 nhóm cơ/ngày) hoặc phân kỳ sức mạnh (Periodization).
+* **Trọng tâm:** Khắc phục điểm yếu, siết cơ thi đấu kết hợp kỹ thuật tăng cường độ cao (Drop sets, Supersets).
+
+---
+
+### 🧠 Khảo sát khoa học: Tại sao 0-6 tháng lại tập Full Body?
+* **Thích ứng thần kinh (Neural Adaptation):** Trong 6 tháng đầu, tăng sức mạnh chủ yếu do hệ thần kinh trung ương (CNS) tối ưu hóa đường truyền tín hiệu tới sợi cơ. Việc lặp đi lặp lại động tác 3 lần/tuần giúp não "học" động tác nhanh gấp 3 lần.
+* **Thời gian tổng hợp Protein (MPS):** Ở người mới, MPS chỉ kéo dài 24-48 giờ sau tập. Tập Full Body cách ngày đảm bảo cơ bắp liên tục được kích thích và hồi phục.
+* **Volume vừa đủ:** Người mới chưa thể chịu đựng khối lượng tập luyện quá lớn trong một buổi. Chia nhỏ 15-20 set/tuần ra 3 buổi Full Body là lựa chọn thông minh và an toàn nhất.
+
+---
+
+### 📏 Thư Viện Bài Tập & Nhóm Cơ Mục Tiêu
+
+#### Các Bài Tập Đa Khớp (Compound Lifts)
+* **Squat (Gánh đòn gánh):** Nhắm vào **Đùi trước (Quads)**, Mông (Glutes), Đùi sau (Hamstrings) và Core.
+  ![Squat Anatomy](squat_anatomy.png)
+* **Deadlift (Kéo đòn tạ):** Nhắm vào **Đùi sau (Hamstrings)**, Mông, Lưng dưới và Lưng trên.
+  ![Deadlift Anatomy](deadlift_anatomy.png)
+* **Bench Press (Đẩy ngực ngang):** Nhắm vào **Cơ ngực lớn (Chest)**, Vai trước và Tay sau.
+* **Barbell Row (Chèo tạ đòn):** Nhắm vào **Cơ xô (Lats)**, Lưng giữa (Mid-back) và Tay trước.
+* **Overhead Press (Đẩy tạ vai):** Nhắm vào **Cơ vai (Deltoids)**, Tay sau và Core.
+
+#### Các Bài Tập Cô Lập (Isolation Lifts)
+* **Bay vai ngang (Lateral Raise):** Nhắm vào **Vai giữa (Lateral Delts)** giúp tạo độ rộng vai.
+* **Cuốn tay trước (Bicep Curl):** Nhắm vào **Tay trước (Biceps)**.
+* **Nhấn cáp tay sau (Tricep Pushdown):** Nhắm vào **Tay sau (Triceps)**.
+
+---
+
 ## 9. Cẩm Nang Bứt Phá Mức Tạ (Strength Mastery) 🔥💪
+
 Muốn cơ bắp to, bạn phải tập cho cơ bắp Khỏe trước đã. Tăng sức mạnh (Strength Training) đòi hỏi một hệ thống luyện tập hoàn toàn khác biệt so với tập Phì đại (Hypertrophy).
 
 ### 🧠 Lập trình lại Hệ Thần Kinh (CNS)
