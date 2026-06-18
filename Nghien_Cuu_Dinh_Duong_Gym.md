@@ -222,48 +222,111 @@ Creatine không phải là hormone hay steroid. Nó là một hợp chất tự 
 
 ---
 
-## 8. Nguyên Lý Lõi & Lộ Trình Lịch Tập 3 Giai Đoạn 📅
-Nguyên tắc cốt lõi của mọi lịch tập là **Quá Tải Lũy Tiến (Progressive Overload)** - tăng tạ, tăng số rep, hoặc giảm thời gian nghỉ theo thời gian.
+## 8. Giáo Án Luyện Tập 4 Buổi/Tuần (Upper/Lower Split) Cho Người Mới 📅
+Lịch tập chia thân trên và thân dưới là giáo án tối ưu để tăng cả sức mạnh và phì đại cơ bắp, đảm bảo cân bằng phục hồi. Lịch này thiết kế đặc thù cho người mới tập tại phòng gym thương mại đầy đủ trang thiết bị.
 
-### 📊 Lộ Trình Lịch Tập 3 Giai Đoạn
-
-#### Giai đoạn 1: Tân Binh (Beginner / 0 - 6 tháng)
-* **Lịch tập:** Full Body (Toàn thân) 3 ngày/tuần (Ví dụ: Thứ 2 - 4 - 6).
-* **Trọng tâm:** Các bài tập đa khớp (Compound) như Squat, Deadlift, Bench Press.
-* **Tần suất:** Cơ thể mới tập sẽ phục hồi rất nhanh và phản ứng tốt với tần suất tập cao để học kỹ thuật chuyển động.
-
-#### Giai đoạn 2: Trung Cấp (Intermediate / 6 tháng - 2 năm)
-* **Lịch tập:** Upper/Lower (Thân trên/Thân dưới) 4 ngày/tuần hoặc Push/Pull/Legs (PPL) 6 ngày/tuần.
-* **Trọng tâm:** Gia tăng thể tích tập luyện (Volume), bổ sung các bài tập cô lập (Isolation) để kích thích phì đại cơ.
-
-#### Giai đoạn 3: Cao Cấp (Advanced / Chuyên sâu)
-* **Lịch tập:** Bro-Split (1 nhóm cơ/ngày) hoặc phân kỳ sức mạnh (Periodization).
-* **Trọng tâm:** Khắc phục điểm yếu, siết cơ thi đấu kết hợp kỹ thuật tăng cường độ cao (Drop sets, Supersets).
+### ⏱️ Phác Đồ Khởi Động (Warm-Up Protocol) - 10 Phút
+* **Bước 1: Khởi động chung:** 5 phút đi bộ dốc nhẹ trên máy chạy (Treadmill) hoặc đạp xe để làm ấm cơ thể, tăng lưu thông máu.
+* **Bước 2: Khởi động khớp:** Xoay khớp cổ tay, cổ chân, khuỷu tay, vai, hông đầu gối trong 2-3 phút để bôi trơn ổ khớp.
+* **Bước 3: Hiệp khởi động chuyên biệt (Ramp-up Sets):** Trước khi vào hiệp chính thức của bài tập đầu tiên mỗi buổi, thực hiện 2 hiệp khởi động với tạ nhẹ (50% và 70% mức tạ chính) để kích hoạt hệ thần kinh trung ương và cơ bắp.
 
 ---
 
-### 🧠 Khảo sát khoa học: Tại sao 0-6 tháng lại tập Full Body?
-* **Thích ứng thần kinh (Neural Adaptation):** Trong 6 tháng đầu, tăng sức mạnh chủ yếu do hệ thần kinh trung ương (CNS) tối ưu hóa đường truyền tín hiệu tới sợi cơ. Việc lặp đi lặp lại động tác 3 lần/tuần giúp não "học" động tác nhanh gấp 3 lần.
-* **Thời gian tổng hợp Protein (MPS):** Ở người mới, MPS chỉ kéo dài 24-48 giờ sau tập. Tập Full Body cách ngày đảm bảo cơ bắp liên tục được kích thích và hồi phục.
-* **Volume vừa đủ:** Người mới chưa thể chịu đựng khối lượng tập luyện quá lớn trong một buổi. Chia nhỏ 15-20 set/tuần ra 3 buổi Full Body là lựa chọn thông minh và an toàn nhất.
+### 📅 Lịch Trình Tuần Chi Tiết
 
----
+```
+┌────────────────────────────────────────────────────────┐
+│             LỊCH TRÌNH TUẦN: 4 BUỔI TẬP                │
+│  T2: Thân trên A  │ T3: Thân dưới A  │ T4: Nghỉ/Cardio │
+│  T5: Thân trên B  │ T6: Thân dưới B  │ T7 & CN: Nghỉ   │
+└────────────────────────────────────────────────────────┘
+```
 
-### 📏 Thư Viện Bài Tập & Nhóm Cơ Mục Tiêu
+#### 🔹 BUỔI 1: THÂN TRÊN A (Tối ưu Cơ Ngực & Lưng Xô)
+* **1. Bench Press (Nằm đẩy ngực tạ đòn):** 3 hiệp x 8-10 reps | Nghỉ 2.5 phút
+  * *Cơ tác động chính:* Ngực lớn (Chest), Vai trước, Tay sau (Triceps).
+  * *Kỹ thuật:* Khép xương bả vai chặt trên ghế, hạ đòn tạ xuống chạm ngực nhẹ nhàng và đẩy lên dứt khoát.
+* **2. Lat Pulldown (Kéo xô máy):** 3 hiệp x 10-12 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Cơ xô (Lats), Lưng trên, Tay trước (Biceps).
+  * *Kỹ thuật:* Ưỡn nhẹ ngực, kéo thanh đòn về phía xương quai xanh, cảm nhận xương bả vai khép lại.
+* **3. Dumbbell Shoulder Press (Đẩy vai tạ đơn):** 3 hiệp x 10-12 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Cơ vai toàn diện (chủ yếu Vai trước/Vai giữa).
+  * *Kỹ thuật:* Ngồi tựa ghế 80 độ, đẩy tạ đơn lên qua đầu, giữ khủy tay hơi hướng về trước.
+* **4. Cable Row (Ngồi chèo lưng cáp):** 3 hiệp x 10-12 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Cơ lưng giữa (Mid-back), Cơ xô (Lats).
+  * *Kỹ thuật:* Giữ thẳng lưng, kéo tay cầm về sát bụng dưới, ép chặt cơ lưng ở đỉnh chuyển động.
+* **5. Lateral Raise (Bay vai ngang tạ đơn):** 3 hiệp x 12-15 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Vai giữa (Lateral Delts - Tạo độ rộng vai).
+  * *Kỹ thuật:* Đứng thẳng, đưa tạ đơn sang hai bên theo góc 30 độ (mặt phẳng scapular), khủy tay hơi cong.
 
-#### Các Bài Tập Đa Khớp (Compound Lifts)
-* **Squat (Gánh đòn gánh):** Nhắm vào **Đùi trước (Quads)**, Mông (Glutes), Đùi sau (Hamstrings) và Core.
+#### 🔸 BUỔI 2: THÂN DƯỚI A (Tối ưu Đùi trước & Mông)
+* **1. Goblet Squat (Gánh đùi trước với tạ đơn):** 3 hiệp x 8-10 reps | Nghỉ 3 phút
+  * *Cơ tác động chính:* Đùi trước (Quads), Mông (Glutes), Core.
+  * *Kỹ thuật:* Cầm tạ đơn sát ngực, hạ hông xuống sâu (dưới song song nếu có thể), giữ cột sống thẳng.
   ![Squat Anatomy](squat_anatomy.png)
-* **Deadlift (Kéo đòn tạ):** Nhắm vào **Đùi sau (Hamstrings)**, Mông, Lưng dưới và Lưng trên.
+* **2. Romanian Deadlift (Kéo đùi sau tạ đơn):** 3 hiệp x 10-12 reps | Nghỉ 2.5 phút
+  * *Cơ tác động chính:* Đùi sau (Hamstrings), Mông, Lưng dưới.
+  * *Kỹ thuật:* Đứng thẳng, cúi gập hông về phía sau (Hinge), giữ tạ đơn sát đùi, chỉ hạ tạ cho đến khi cảm thấy đùi sau căng hết cỡ thì kéo lên bằng mông.
   ![Deadlift Anatomy](deadlift_anatomy.png)
-* **Bench Press (Đẩy ngực ngang):** Nhắm vào **Cơ ngực lớn (Chest)**, Vai trước và Tay sau.
-* **Barbell Row (Chèo tạ đòn):** Nhắm vào **Cơ xô (Lats)**, Lưng giữa (Mid-back) và Tay trước.
-* **Overhead Press (Đẩy tạ vai):** Nhắm vào **Cơ vai (Deltoids)**, Tay sau và Core.
+* **3. Leg Press (Máy đạp đùi):** 3 hiệp x 10-12 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Đùi trước, Mông.
+  * *Kỹ thuật:* Đặt chân rộng bằng vai ở giữa bàn đạp, hạ gối từ từ về phía ngực, không để mông bị nhấc khỏi ghế đệm.
+* **4. Standing Calf Raise (Nhón bắp chân đứng):** 3 hiệp x 15-20 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Bắp chân (Calves).
+  * *Kỹ thuật:* Nhón gót chân lên tối đa, giữ 1 giây ở đỉnh, hạ xuống hết cỡ để kéo giãn cơ bắp chân.
+* **5. Plank (Gồng bụng tĩnh):** 3 hiệp x 45-60 giây | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Cơ bụng trung tâm (Core).
+  * *Kỹ thuật:* Giữ cơ thể thẳng tắp từ đầu đến gót chân, siết chặt mông và cơ bụng để chịu lực.
 
-#### Các Bài Tập Cô Lập (Isolation Lifts)
-* **Bay vai ngang (Lateral Raise):** Nhắm vào **Vai giữa (Lateral Delts)** giúp tạo độ rộng vai.
-* **Cuốn tay trước (Bicep Curl):** Nhắm vào **Tay trước (Biceps)**.
-* **Nhấn cáp tay sau (Tricep Pushdown):** Nhắm vào **Tay sau (Triceps)**.
+#### 🔹 BUỔI 3: THÂN TRÊN B (Tối ưu Cơ Ngực trên & Lưng rộng)
+* **1. Incline Dumbbell Bench Press (Đẩy ngực trên tạ đơn):** 3 hiệp x 8-10 reps | Nghỉ 2.5 phút
+  * *Cơ tác động chính:* Cơ ngực trên (Clavicular Head), Vai trước.
+  * *Kỹ thuật:* Nằm ghế dốc 30 độ, hạ tạ đơn xuống hai bên ngực và đẩy lên hướng chụm lại góc ngực trên.
+* **2. Assisted Pull-up (Hít xà trợ lực):** 3 hiệp x 8-10 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Cơ lưng rộng (Lats), Lưng trên.
+  * *Kỹ thuật:* Dùng máy trợ lực để hỗ trợ kéo xà, kéo ngực chạm thanh xà, mở rộng lồng ngực.
+* **3. Dumbbell Chest Supported Row (Chèo lưng tựa ghế dốc):** 3 hiệp x 10-12 reps | Nghỉ 2 phút
+  * *Cơ tác động chính:* Lưng giữa (Rhomboids), Xô (Lats).
+  * *Kỹ thuật:* Nằm úp mặt trên ghế dốc 30-45 độ, kéo tạ đơn hướng về phía hông, hạn chế dùng lực tay trước.
+* **4. Face Pull (Kéo cáp ngang mặt):** 3 hiệp x 15 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Vai sau (Posterior Delts), Lưng trên, Xoay vai ngoại.
+  * *Kỹ thuật:* Kéo dây cáp về phía trán, mở rộng khuỷu tay sang hai bên và xoay ngoài cánh tay để cải thiện tư thế gù vai.
+* **5. Bicep Curl & Tricep Pushdown Superset:** 3 hiệp x 12 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Tay trước (Biceps) và Tay sau (Triceps).
+  * *Kỹ thuật:* Thực hiện cuốn tạ tay trước xong lập tức chuyển sang nhấn cáp tay sau mà không nghỉ giữa bài.
+
+#### 🔸 BUỔI 4: THÂN DƯỚI B (Khắc phục Đùi lệch & Lưng khỏe)
+* **1. High-Foot Leg Press (Đạp đùi đặt chân cao):** 3 hiệp x 8-10 reps | Nghỉ 2.5 phút
+  * *Cơ tác động chính:* Đùi sau, Mông.
+  * *Kỹ thuật:* Đặt bàn chân ở phía trên cùng của bàn đạp giúp chuyển phần lớn áp lực từ đùi trước sang đùi sau và mông.
+* **2. Bulgarian Split Squat (Lunge chân trên ghế):** 3 hiệp x 8-10 reps/bên | Nghỉ 2 phút
+  * *Cơ tác động chính:* Đùi trước, Mông, Lõi thăng bằng.
+  * *Kỹ thuật:* Đặt một chân lên ghế sau, chân trước tiến lên và hạ hông xuống vuông góc. Bài tập cực tốt để cân bằng kích thước đùi 2 bên.
+* **3. Leg Extension (Đá đùi trước máy):** 3 hiệp x 12-15 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Cô lập đùi trước (Quadriceps).
+  * *Kỹ thuật:* Ngồi chắc chắn trên ghế máy, đá chân thẳng lên và gồng chặt đùi trước ở đỉnh 1 giây.
+* **4. Seated Leg Curl (Móc đùi sau máy):** 3 hiệp x 12-15 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Cô lập đùi sau (Hamstrings).
+  * *Kỹ thuật:* Móc chân xuống dưới đệm đùi, cuộn gối sâu về phía sau và cảm nhận cơ đùi sau co thắt.
+* **5. Hanging Knee Raise (Treo người co gối):** 3 hiệp x 12-15 reps | Nghỉ 1.5 phút
+  * *Cơ tác động chính:* Cơ bụng dưới.
+  * *Kỹ thuật:* Treo người trên xà hoặc giá nâng tay, cuộn hông co gối lên cao sát ngực để tác động sâu bụng dưới.
+
+---
+
+### 🧠 Khảo Sát Khoa Học: Tại sao 0-6 tháng lại tập Upper/Lower hoặc Full Body thay vì Bro-split?
+* **Tốc độ phục hồi của người mới:** Ở người mới, quá trình tổng hợp protein cơ bắp (MPS) sau khi kích thích chỉ diễn ra trong vòng 24-48 giờ rồi trở lại bình thường. Nếu bạn tập Bro-split (tập ngực thứ 2 và đợi đến thứ 2 tuần sau mới tập lại), bạn đang để cơ bắp "ngủ yên" suốt 5 ngày vô ích. Tần suất kích thích cơ 2 lần/tuần thông qua lịch Upper/Lower là tối ưu nhất.
+* **Tích lũy kỹ năng chuyển động:** Người mới cần lặp lại kỹ thuật các bài Bench Press, Squat nhiều lần trong tuần để hệ thần kinh trung ương (CNS) học cách kiểm soát và điều khiển vận động tối ưu.
+
+---
+
+### 📏 Nguyên Tắc Quá Tải Lũy Tiến Lớp Kép (Double Progression)
+Để tiến bộ liên tục, người mới cần tuân thủ nguyên tắc tăng tiến tuần tự:
+1. **Gắng sức ở ngưỡng an toàn (RPE 7-8):** Không cần tập đến mức sập tạ (Failure). Chỉ dừng lại khi cảm nhận mình vẫn còn có thể thực hiện thêm được 2 hoặc 3 reps nữa nếu cố gắng hết sức (RIR 2-3).
+2. **Double Progression:** 
+   - *Tuần 1:* Thực hiện mức tạ X với mục tiêu 8 reps.
+   - *Tuần 2 & 3:* Giữ nguyên mức tạ X, cố gắng nâng số reps lên 9 hoặc 10 reps cho tất cả các hiệp.
+   - *Tuần 4:* Khi đã đẩy được 10 reps nhẹ nhàng chuẩn form ở cả 3 hiệp, hãy **tăng mức tạ lên nhẹ** (ví dụ từ 40kg lên 42.5kg) và bắt đầu lại buổi tập với mục tiêu 8 reps.
 
 ---
 
