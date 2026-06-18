@@ -1,33 +1,22 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cẩm nang nghiên cứu khoa học dinh dưỡng và thực phẩm bổ sung tập gym - Nét Đô">
-    <title>Cẩm Nang Dinh Dưỡng Tập Gym - Avant-Garde / Constructivist Edition</title>
+    <title>GYM - Art Director Edition</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Share+Tech+Mono&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        /* --- CONSTRUCTIVISM / TECH-ART / AVANT-GARDE SYSTEM --- */
+        /* --- NEO-MINIMALIST / JAPANESE EXECUTIVE PRESENTATION --- */
         :root {
-            --bg-primary: #E0E0D0;          /* Warm Matte Gray / Beige Paper */
-            --bg-secondary: #D5D5C3;        /* Secondary Paper Layer */
-            --text-primary: #111111;        /* Heavy Ink Black */
-            --text-secondary: #333333;      /* Charcoal Ink */
-            --text-muted: #66665c;
-            
-            --color-accent: #DFFF00;        /* Electric Neon Yellow */
-            --border-line: 0.5px solid #111111; /* Ultra-thin 0.5pt Grid Lines */
-            
-            --font-serif: 'DM Serif Display', Georgia, serif;
-            --font-body: 'PT Serif', Georgia, serif;
-            --font-mono: 'Courier New', 'Share Tech Mono', monospace;
-            
-            --transition: all 0.2s ease;
+            --bg: #FFFFFF;
+            --fg: #111111;
+            --accent: #FFCC00;
+            --font-main: 'Inter', sans-serif;
         }
 
         * {
@@ -37,418 +26,377 @@
         }
 
         body {
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            font-family: var(--font-body);
-            line-height: 1.5;
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: var(--font-main);
+            line-height: 1.6;
             min-height: 100vh;
             display: flex;
-            /* Paper-like noise/grain effect via CSS pattern */
-            background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 0);
-            background-size: 24px 24px;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* Scrollbar matching avant-garde print */
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--bg-primary);
-            border-left: var(--border-line);
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #111;
-        }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--fg); }
 
         .wrapper {
             display: flex;
             width: 100%;
         }
 
-        /* --- SIDEBAR NAVIGATION (GRID DIVISION) --- */
+        /* --- SIDEBAR NAVIGATION (Minimalist Text Lines) --- */
         aside {
-            width: 290px;
-            background-color: var(--bg-primary);
-            border-right: var(--border-line);
-            padding: 3.5rem 1.8rem;
+            width: 25vw;
+            min-width: 280px;
+            background-color: var(--bg);
+            border-right: 1px solid var(--fg);
+            padding: 3rem 2rem;
             position: fixed;
             height: 100vh;
             left: 0;
             top: 0;
             display: flex;
             flex-direction: column;
-            gap: 2.5rem;
+            gap: 4rem;
             z-index: 10;
         }
 
         .logo {
-            font-family: var(--font-serif);
-            font-size: 1.8rem;
-            line-height: 0.9;
-            color: #000;
-            border: var(--border-line);
-            padding: 12px;
-            background-color: var(--color-accent);
-            text-align: center;
-            letter-spacing: -1px;
+            font-size: 1rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: var(--bg);
+            background-color: var(--fg);
+            display: inline-block;
+            padding: 8px 12px;
             text-transform: uppercase;
+            letter-spacing: -0.5px;
+            align-self: flex-start;
         }
 
         .logo span {
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
+            font-size: 0.75rem;
             display: block;
+            font-weight: 400;
+            letter-spacing: 0;
+            color: var(--accent);
             margin-top: 4px;
-            letter-spacing: 2px;
-            font-weight: bold;
         }
 
         .menu-title {
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--text-muted);
+            letter-spacing: 2px;
             font-weight: 700;
-            margin-bottom: 0.8rem;
+            margin-bottom: 2rem;
+            color: var(--fg);
         }
 
         .menu-list {
             display: flex;
             flex-direction: column;
+            gap: 0;
             list-style: none;
-            border-top: var(--border-line);
+            border-top: 1px solid var(--fg);
         }
 
         .menu-link {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            color: var(--text-primary);
+            display: block;
+            color: var(--fg);
             text-decoration: none;
-            padding: 12px 10px;
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            border-bottom: var(--border-line);
-            transition: var(--transition);
-        }
-
-        .menu-link i {
-            font-size: 0.8rem;
-            color: var(--text-muted);
+            padding: 1.2rem 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-bottom: 1px solid var(--fg);
+            transition: all 0.2s ease;
+            text-transform: lowercase;
+            letter-spacing: -1px;
         }
 
         .menu-link:hover {
-            background-color: var(--color-accent);
-            padding-left: 18px;
+            background-color: var(--accent);
+            padding-left: 1rem;
         }
 
         .menu-link.active {
-            background-color: #000000;
-            color: var(--color-accent);
+            background-color: var(--fg);
+            color: var(--bg);
+            padding-left: 1rem;
         }
 
-        .menu-link.active i {
-            color: var(--color-accent);
-        }
-
-        /* --- MAIN CONTENT AREA (CONSTRUCTIVIST) --- */
+        /* --- MAIN CONTENT AREA --- */
         main {
             flex-grow: 1;
-            margin-left: 290px;
-            padding: 4rem 5rem;
-            max-width: 1150px;
+            margin-left: 25vw;
+            padding: 0;
+            max-width: 1400px;
         }
 
+        /* Asymmetrical Header */
         header {
-            margin-bottom: 4rem;
-            border-bottom: var(--border-line);
-            padding-bottom: 2rem;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding: 4rem 6rem;
+            border-bottom: 1px solid var(--fg);
             position: relative;
+            background-color: var(--bg);
         }
 
         header h1 {
-            font-family: var(--font-serif);
-            font-size: 3.5rem;
-            font-weight: normal;
-            line-height: 1.0;
-            letter-spacing: -2px;
-            color: #000;
-            margin-bottom: 12px;
+            font-size: 15vw;
+            font-weight: 900;
+            line-height: 0.8;
+            letter-spacing: -0.05em;
+            color: var(--fg);
+            margin-bottom: 0;
+            text-transform: uppercase;
         }
 
         header h1 span {
-            font-family: var(--font-mono);
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             display: block;
-            letter-spacing: 4px;
-            color: var(--text-muted);
-            margin-top: 8px;
-            text-transform: uppercase;
-            font-weight: bold;
+            letter-spacing: 0;
+            color: var(--fg);
+            margin-top: 2rem;
+            font-weight: 400;
+            text-transform: none;
+            background-color: var(--accent);
+            padding: 4px 8px;
+            display: inline-block;
         }
 
         header p {
-            font-family: var(--font-body);
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            font-style: italic;
+            font-size: 1.5rem;
+            color: var(--fg);
+            max-width: 600px;
+            margin-top: 2rem;
+            font-weight: 400;
         }
 
-        /* Badge/Stamps in Header */
         .header-stamp {
             position: absolute;
-            right: 0;
-            top: 0;
-            border: var(--border-line);
-            padding: 8px 12px;
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
+            right: 6rem;
+            top: 4rem;
+            padding: 4px 8px;
+            font-size: 0.8rem;
             text-transform: uppercase;
-            background-color: var(--color-accent);
-            font-weight: bold;
+            background-color: var(--fg);
+            color: var(--bg);
+            font-weight: 700;
+            letter-spacing: 1px;
         }
 
         /* --- CONTENT ELEMENTS --- */
         section {
-            margin-bottom: 5rem;
-            scroll-margin-top: 3rem;
+            padding: 8rem 6rem;
+            border-bottom: 1px solid var(--fg);
         }
 
         h2 {
-            font-family: var(--font-serif);
-            font-size: 2rem;
-            font-weight: normal;
-            letter-spacing: -1px;
-            margin-bottom: 2rem;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            color: #000;
-        }
-
-        h2::after {
-            content: "";
-            flex-grow: 1;
-            height: 1px;
-            background-color: #111;
+            font-size: 4rem;
+            font-weight: 900;
+            letter-spacing: -2px;
+            margin-bottom: 4rem;
+            color: var(--fg);
+            line-height: 1;
         }
 
         h3 {
-            font-family: var(--font-serif);
-            font-size: 1.4rem;
-            font-weight: normal;
-            margin: 2.2rem 0 1rem 0;
-            color: #000;
-            letter-spacing: -0.5px;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 4rem 0 2rem 0;
+            color: var(--fg);
+            letter-spacing: -1px;
         }
 
         p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-            text-align: justify;
+            color: var(--fg);
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            max-width: 800px;
+            text-align: left;
         }
 
-        /* Callout Box styled like Bauhaus Manifesto block */
+        /* Callout Box - Brutalist */
         .callout {
-            background-color: var(--bg-secondary);
-            border: var(--border-line);
-            padding: 1.8rem;
-            margin-bottom: 2rem;
-            display: flex;
-            gap: 20px;
+            background-color: var(--accent);
+            border: 2px solid var(--fg);
+            padding: 3rem;
+            margin: 4rem 0;
             position: relative;
         }
 
-        .callout-icon {
-            font-size: 1.6rem;
-            color: #000;
-        }
-
         .callout-text h4 {
-            font-family: var(--font-mono);
-            font-size: 0.95rem;
-            font-weight: bold;
-            margin-bottom: 6px;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #000;
+            letter-spacing: -0.5px;
+            color: var(--fg);
         }
 
         .callout-text p {
             margin-bottom: 0;
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--fg);
+            font-weight: 400;
         }
 
-        /* Minimal Avant-Garde Badges */
+        /* Badges */
         .badge {
             display: inline-block;
-            padding: 4px 10px;
-            font-family: var(--font-mono);
-            font-size: 0.7rem;
-            font-weight: bold;
+            padding: 4px 12px;
+            font-size: 0.8rem;
+            font-weight: 700;
             text-transform: uppercase;
-            border: var(--border-line);
+            border: 1px solid var(--fg);
+            margin-right: 8px;
+            margin-bottom: 8px;
         }
 
-        .badge-a { background-color: var(--color-accent); color: #000; }
-        .badge-b { background-color: #000; color: #fff; }
-        .badge-c { background-color: transparent; color: var(--text-secondary); }
+        .badge-a { background-color: var(--fg); color: var(--bg); }
+        .badge-b { background-color: var(--bg); color: var(--fg); }
+        .badge-c { background-color: var(--accent); color: var(--fg); border-color: var(--fg); }
 
-        /* Constructivist Grid Cards (Bauhaus blocky look) */
+        /* Grid Cards - Brutalist */
         .grid-cards {
             display: grid;
-            grid-template-columns: 1fr;
-            gap: 1.8rem;
-            margin-bottom: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 0;
+            margin: 4rem 0;
+            border: 1px solid var(--fg);
+            border-bottom: none;
+            border-right: none;
         }
 
         .card {
-            background-color: var(--bg-secondary);
-            border: var(--border-line);
-            padding: 2rem;
-            transition: var(--transition);
+            background-color: var(--bg);
+            border-right: 1px solid var(--fg);
+            border-bottom: 1px solid var(--fg);
+            padding: 3rem;
         }
 
         .card:hover {
-            box-shadow: 6px 6px 0px #111;
-            transform: translate(-3px, -3px);
+            background-color: var(--fg);
         }
+        
+        .card:hover * {
+            color: var(--bg);
+        }
+        .card:hover .badge-b { background-color: var(--bg); color: var(--fg); }
 
         .card-header-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-bottom: 1.2rem;
-            border-bottom: var(--border-line);
-            padding-bottom: 10px;
+            margin-bottom: 2rem;
         }
 
         .card-title-text {
-            font-family: var(--font-serif);
-            font-size: 1.35rem;
-            font-weight: normal;
-            color: #000;
-            letter-spacing: -0.5px;
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--fg);
+            letter-spacing: -1px;
+            margin-bottom: 1rem;
         }
 
         .card ul {
             list-style: none;
             padding-left: 0;
-            margin-top: 15px;
+            margin-top: 2rem;
         }
 
         .card li {
             position: relative;
-            padding-left: 25px;
-            margin-bottom: 8px;
-            font-size: 1rem;
-            color: var(--text-secondary);
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: var(--fg);
+            border-bottom: 1px solid rgba(17,17,17,0.1);
+            padding-bottom: 1rem;
         }
+
+        .card:hover li { border-bottom-color: rgba(255,255,255,0.2); }
 
         .card li::before {
-            content: "■";
-            color: var(--text-primary);
-            font-size: 0.6rem;
+            content: "—";
+            color: var(--accent);
+            font-weight: 900;
             position: absolute;
-            left: 5px;
-            top: 4px;
+            left: 0;
+            top: 0;
         }
 
-        /* --- CONSTRUCTIVIST GRID TABLES --- */
+        /* Tables - Executive */
         .table-container {
             width: 100%;
             overflow-x: auto;
-            border: var(--border-line);
-            margin: 2rem 0;
+            margin: 4rem 0;
+            border-top: 2px solid var(--fg);
+            border-bottom: 2px solid var(--fg);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             text-align: left;
-            font-size: 0.95rem;
         }
 
         th, td {
-            padding: 16px 20px;
-            border: var(--border-line);
-            font-family: var(--font-mono);
+            padding: 1.5rem 1rem;
+            border-bottom: 1px solid rgba(17,17,17,0.2);
+            font-size: 1.1rem;
         }
 
         th {
-            background-color: #111;
-            color: var(--color-accent);
-            font-weight: bold;
-            font-size: 0.8rem;
+            font-weight: 900;
             text-transform: uppercase;
+            font-size: 0.9rem;
             letter-spacing: 1px;
+            color: var(--fg);
         }
 
-        td {
-            color: var(--text-primary);
-        }
+        td { color: var(--fg); }
 
-        tr:hover td {
-            background-color: var(--color-accent);
-            color: #000 !important;
-        }
+        tr:last-child td { border-bottom: none; }
 
-        .highlight-td {
-            font-weight: bold;
-        }
+        tr:hover td { background-color: var(--accent); color: var(--fg); }
 
-        .highlight-pro {
-            background-color: rgba(0,0,0,0.05);
-            font-weight: bold;
-        }
+        .highlight-td { font-weight: 700; }
+        .highlight-pro { background-color: var(--fg); color: var(--bg); padding: 4px 8px; font-weight: 700; display: inline-block; }
+        tr:hover .highlight-pro { background-color: var(--bg); color: var(--fg); }
 
-        .highlight-cal {
-            font-weight: bold;
-        }
-
-        /* --- RESPONSIVE MOBILE --- */
-        @media (max-width: 900px) {
-            body {
-                flex-direction: column;
-            }
-
+        /* Responsive Mobile */
+        @media (max-width: 1024px) {
+            body { flex-direction: column; }
             aside {
                 width: 100%;
                 height: auto;
                 position: relative;
-                padding: 2rem 1.5rem;
+                padding: 2rem;
+                border-right: none;
+                border-bottom: 1px solid var(--fg);
             }
-
             .menu-list {
                 flex-direction: row;
-                overflow-x: auto;
-                padding-bottom: 6px;
+                flex-wrap: wrap;
+                border-top: none;
             }
-
             .menu-link {
-                flex-shrink: 0;
-                font-size: 0.8rem;
-                padding: 10px;
+                font-size: 1.2rem;
+                padding: 1rem;
+                border-bottom: none;
+                border-right: 1px solid var(--fg);
             }
-
-            main {
-                margin-left: 0;
-                padding: 2.5rem 1.5rem;
-            }
-
-            header h1 {
-                font-size: 2.5rem;
-            }
+            main { margin-left: 0; }
+            header { padding: 4rem 2rem; }
+            header h1 { font-size: 25vw; }
+            section { padding: 4rem 2rem; }
         }
     </style>
 </head>
+
 <body>
     <div class="wrapper">
         <!-- Sidebar Navigation -->
@@ -460,12 +408,18 @@
             <div>
                 <h3 class="menu-title">MỤC LỤC INDEX</h3>
                 <ul class="menu-list">
-                    <li><a href="#tong-quan" class="menu-link active"><i class="fa-solid fa-list-check"></i> 01 / Tổng quan</a></li>
-                    <li><a href="#supplements" class="menu-link"><i class="fa-solid fa-vial"></i> 02 / Bổ sung</a></li>
-                    <li><a href="#whole-foods" class="menu-link"><i class="fa-solid fa-cheese"></i> 03 / Ăn thô</a></li>
-                    <li><a href="#timing" class="menu-link"><i class="fa-solid fa-hourglass-half"></i> 04 / Thời điểm</a></li>
-                    <li><a href="#diet-50k" class="menu-link"><i class="fa-solid fa-coins"></i> 05 / Định mức 50k</a></li>
-                    <li><a href="#nutrition-table" class="menu-link"><i class="fa-solid fa-border-all"></i> 06 / Thành phần</a></li>
+                    <li><a href="#tong-quan" class="menu-link active">01 / Tổng
+                            quan</a></li>
+                    <li><a href="#supplements" class="menu-link">02 / Bổ sung</a></li>
+                    <li><a href="#whole-foods" class="menu-link">03 / Ăn thô</a></li>
+                    <li><a href="#timing" class="menu-link">04 / Thời
+                            điểm</a></li>
+                    <li><a href="#diet-50k" class="menu-link">05 / Định mức 50k</a>
+                    </li>
+                    <li><a href="#nutrition-table" class="menu-link">06 / Thành
+                            phần</a></li>
+                                    <li><a href="#creatine" class="menu-link">07 / Creatine</a></li>
+                    <li><a href="#lich-tap" class="menu-link">08 / Lịch tập</a></li>
                 </ul>
             </div>
         </aside>
@@ -477,10 +431,14 @@
 
             <!-- Header Section -->
             <header>
-                <h1>CAM NANG DINH DUONG<span>FITNESS RESEARCH REPORT</span></h1>
-                <p>Nghiên cứu khoa học thể hình thực tế & Phân tích tối ưu ngân sách - Constructivist & Avant-Garde Edition.</p>
-                <p style="font-family: var(--font-mono); font-size: 0.8rem; margin-top: 10px; font-style: normal; text-transform: uppercase;">
-                    [ <a href="Nghien_Cuu_Dinh_Duong_Gym.md" style="color: #000; background: var(--color-accent); font-weight: bold; text-decoration: none; padding: 2px 6px;">Xem file raw Markdown nguồn (.md)</a> ]
+                <h1>GYM<span>Cẩm nang khoa học về thực phẩm bổ sung</span></h1>
+                <p>Nghiên cứu khoa học thể hình thực tế & Phân tích tối ưu ngân sách - Constructivist & Avant-Garde
+                    Edition.</p>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.8rem; margin-top: 10px; font-style: normal; text-transform: uppercase;">
+                    [ <a href="Nghien_Cuu_Dinh_Duong_Gym.md"
+                        style="color: #000; background: var(--color-accent); font-weight: bold; text-decoration: none; padding: 2px 6px;">Xem
+                        file raw Markdown nguồn (.md)</a> ]
                 </p>
             </header>
 
@@ -488,15 +446,17 @@
             <section id="tong-quan">
                 <h2>01. TỔNG QUAN & PHÂN LOẠI KHOA HỌC</h2>
                 <p>
-                    Để xây dựng cơ bắp hiệu quả (phì đại cơ - Hypertrophy) và giữ lượng mỡ tối thiểu, dinh dưỡng đóng vai trò cốt lõi. Tài liệu này tổng hợp dữ liệu khoa học từ Hiệp hội Dinh dưỡng Thể thao Quốc tế (ISSN) và Viện Thể thao Úc (AIS), giúp phân loại rõ ràng các chất bổ sung dựa trên mức độ hiệu quả lâm sàng thực tế, ngăn ngừa lãng phí tài chính vào các loại TPCN vô thưởng vô phạt.
+                    Để xây dựng cơ bắp hiệu quả (phì đại cơ - Hypertrophy) và giữ lượng mỡ tối thiểu, dinh dưỡng đóng
+                    vai trò cốt lõi. Tài liệu này tổng hợp dữ liệu khoa học từ Hiệp hội Dinh dưỡng Thể thao Quốc tế
+                    (ISSN) và Viện Thể thao Úc (AIS), giúp phân loại rõ ràng các chất bổ sung dựa trên mức độ hiệu quả
+                    lâm sàng thực tế, ngăn ngừa lãng phí tài chính vào các loại TPCN vô thưởng vô phạt.
                 </p>
                 <div class="callout">
-                    <div class="callout-icon">
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                    </div>
                     <div class="callout-text">
                         <h4>NGUYÊN TẮC: "FOOD FIRST"</h4>
-                        <p>Thực phẩm tự nhiên (Whole Foods) luôn chiếm 90% kết quả tổng thể của bạn. Các chất bổ sung (Supplements) chỉ đóng vai trò 10% hỗ trợ, giúp tối ưu hóa hiệu suất ở các giai đoạn nâng cao.</p>
+                        <p>Thực phẩm tự nhiên (Whole Foods) luôn chiếm 90% kết quả tổng thể của bạn. Các chất bổ sung
+                            (Supplements) chỉ đóng vai trò 10% hỗ trợ, giúp tối ưu hóa hiệu suất ở các giai đoạn nâng
+                            cao.</p>
                     </div>
                 </div>
             </section>
@@ -514,22 +474,40 @@
                             <span class="badge badge-a">HIỆU QUẢ RÕ RỆT</span>
                         </div>
                         <p>Được coi là "ông vua" trong thế giới supplements dành cho tăng sức mạnh.</p>
-                        
-                        <h4 style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">Tác dụng chính:</h4>
+
+                        <h4
+                            style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">
+                            Tác dụng chính:</h4>
                         <ul>
-                            <li><strong>Tái tạo năng lượng ATP:</strong> Chuyển hóa ADP thành ATP ngay lập tức để cấp năng lượng cho các động tác nâng tạ bùng nổ (sức mạnh 1RM).</li>
-                            <li><strong>Tích nước tế bào (Cell Hydration):**</strong> Hút nước vào bên trong sợi cơ (không tích nước ngoài da), giúp cơ bắp trông dày, to tròn hơn và kích thích tổng hợp cơ.</li>
-                            <li><strong>Tăng hiệu suất 5-15%:</strong> Giúp đẩy thêm 1-2 rep tạ ở các hiệp cuối nặng nhất.</li>
-                            <li><strong>Hỗ trợ trí não:</strong> Tăng nhận thức và giảm mệt mỏi tinh thần khi bị thiếu ngủ.</li>
+                            <li><strong>Tái tạo năng lượng ATP:</strong> Chuyển hóa ADP thành ATP ngay lập tức để cấp
+                                năng lượng cho các động tác nâng tạ bùng nổ (sức mạnh 1RM).</li>
+                            <li><strong>Tích nước tế bào (Cell Hydration):**</strong> Hút nước vào bên trong sợi cơ
+                                (không tích nước ngoài da), giúp cơ bắp trông dày, to tròn hơn và kích thích tổng hợp
+                                cơ.</li>
+                            <li><strong>Tăng hiệu suất 5-15%:</strong> Giúp đẩy thêm 1-2 rep tạ ở các hiệp cuối nặng
+                                nhất.</li>
+                            <li><strong>Hỗ trợ trí não:</strong> Tăng nhận thức và giảm mệt mỏi tinh thần khi bị thiếu
+                                ngủ.</li>
                         </ul>
 
-                        <h4 style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">Cách lựa chọn dựa trên bảng thành phần:</h4>
+                        <h4
+                            style="font-family: var(--font-mono); font-size: 0.9rem; text-transform: uppercase; margin-top: 15px; color: #000; background: var(--color-accent); padding: 4px 8px; display: inline-block; font-weight: bold;">
+                            Cách lựa chọn dựa trên bảng thành phần:</h4>
                         <ul>
-                            <li><strong>1. Chỉ chọn Creatine Monohydrate:</strong> Tránh các dạng đắt đỏ khác như *Creatine HCL, Kre-Alkalyn (pH Buffered)* vì chúng đắt gấp 2-3 lần nhưng hiệu quả hấp thu không hề cao hơn.</li>
-                            <li><strong>2. Ưu tiên "Micronized":</strong> Dòng chữ này nghĩa là hạt bột được xay mịn hơn 20 lần, giúp bột dễ hòa tan, giảm thiểu lắng cặn và ngăn ngừa chướng bụng/tiêu chảy nhẹ.</li>
-                            <li><strong>3. Thành phần phụ tối giản:</strong> Đối với loại không vị (unflavored), danh sách thành phần phụ (Other Ingredients) **chỉ được chứa duy nhất Creatine Monohydrate**, không chất tạo ngọt, không hương liệu hay chất độn.</li>
-                            <li><strong>4. Tem chứng chỉ Creapure®:</strong> Nếu có điều kiện, hãy tìm loại có logo này. Đây là nguồn creatine siêu tinh khiết (99.9%+) sản xuất tại Đức, lọc bỏ hoàn toàn các kim loại nặng và tạp chất.</li>
-                            <li><strong>5. Đủ liều (3g - 5g):</strong> Hãy chắc chắn muỗng gạt trong Supplement Facts chứa đúng 3g-5g (3,000mg-5,000mg) cho một serving.</li>
+                            <li><strong>1. Chỉ chọn Creatine Monohydrate:</strong> Tránh các dạng đắt đỏ khác như
+                                *Creatine HCL, Kre-Alkalyn (pH Buffered)* vì chúng đắt gấp 2-3 lần nhưng hiệu quả hấp
+                                thu không hề cao hơn.</li>
+                            <li><strong>2. Ưu tiên "Micronized":</strong> Dòng chữ này nghĩa là hạt bột được xay mịn hơn
+                                20 lần, giúp bột dễ hòa tan, giảm thiểu lắng cặn và ngăn ngừa chướng bụng/tiêu chảy nhẹ.
+                            </li>
+                            <li><strong>3. Thành phần phụ tối giản:</strong> Đối với loại không vị (unflavored), danh
+                                sách thành phần phụ (Other Ingredients) **chỉ được chứa duy nhất Creatine Monohydrate**,
+                                không chất tạo ngọt, không hương liệu hay chất độn.</li>
+                            <li><strong>4. Tem chứng chỉ Creapure®:</strong> Nếu có điều kiện, hãy tìm loại có logo này.
+                                Đây là nguồn creatine siêu tinh khiết (99.9%+) sản xuất tại Đức, lọc bỏ hoàn toàn các
+                                kim loại nặng và tạp chất.</li>
+                            <li><strong>5. Đủ liều (3g - 5g):</strong> Hãy chắc chắn muỗng gạt trong Supplement Facts
+                                chứa đúng 3g-5g (3,000mg-5,000mg) cho một serving.</li>
                         </ul>
                     </div>
 
@@ -541,8 +519,10 @@
                         </div>
                         <p>Nguồn đạm tinh khiết, tốc độ hấp thu nhanh vượt trội.</p>
                         <ul>
-                            <li><strong>Cơ chế:</strong> Chứa hàm lượng axit amin thiết yếu cao (EAA, BCAA, đặc biệt là Leucine) giúp kích hoạt tổng hợp cơ.</li>
-                            <li><strong>Hiệu quả:</strong> Phục hồi cơ tức thì ngay sau tập, thay thế bữa phụ nhanh gọn tiện lợi.</li>
+                            <li><strong>Cơ chế:</strong> Chứa hàm lượng axit amin thiết yếu cao (EAA, BCAA, đặc biệt là
+                                Leucine) giúp kích hoạt tổng hợp cơ.</li>
+                            <li><strong>Hiệu quả:</strong> Phục hồi cơ tức thì ngay sau tập, thay thế bữa phụ nhanh gọn
+                                tiện lợi.</li>
                             <li><strong>Cách dùng:</strong> 1-2 muỗng (scoop)/ngày sau tập hoặc bữa phụ chiều.</li>
                         </ul>
                     </div>
@@ -555,9 +535,11 @@
                         </div>
                         <p>Chất tăng hiệu suất tập trung, chống mệt mỏi hiệu quả nhất.</p>
                         <ul>
-                            <li><strong>Cơ chế:</strong> Kháng lại Adenosine thụ thể gây mệt mỏi, thúc đẩy lưu thông máu.</li>
+                            <li><strong>Cơ chế:</strong> Kháng lại Adenosine thụ thể gây mệt mỏi, thúc đẩy lưu thông
+                                máu.</li>
                             <li><strong>Hiệu quả:</strong> Giúp tập trung cao độ, đẩy tạ sung hơn.</li>
-                            <li><strong>Cách dùng:</strong> 150-300mg trước tập 30-45 phút (Tránh dùng sau 5h chiều).</li>
+                            <li><strong>Cách dùng:</strong> 150-300mg trước tập 30-45 phút (Tránh dùng sau 5h chiều).
+                            </li>
                         </ul>
                     </div>
 
@@ -569,8 +551,10 @@
                         </div>
                         <p>Các chất hỗ trợ bơm máu và tăng sức chịu đựng cơ học.</p>
                         <ul>
-                            <li><strong>L-Citrulline (6-8g trước tập):</strong> Thúc đẩy sản sinh Nitric Oxide (NO) làm giãn nở mạch máu, bơm nhiều chất dinh dưỡng vào cơ.</li>
-                            <li><strong>Beta-Alanine (3-5g/ngày):</strong> Tạo chất đệm Carnosine chống tích tụ axit lactic giúp làm chậm mỏi cơ. Gây ngứa da nhẹ vô hại.</li>
+                            <li><strong>L-Citrulline (6-8g trước tập):</strong> Thúc đẩy sản sinh Nitric Oxide (NO) làm
+                                giãn nở mạch máu, bơm nhiều chất dinh dưỡng vào cơ.</li>
+                            <li><strong>Beta-Alanine (3-5g/ngày):</strong> Tạo chất đệm Carnosine chống tích tụ axit
+                                lactic giúp làm chậm mỏi cơ. Gây ngứa da nhẹ vô hại.</li>
                         </ul>
                     </div>
 
@@ -582,8 +566,10 @@
                         </div>
                         <p>Hỗ trợ bảo vệ sức khỏe khớp và mức hormone nội sinh.</p>
                         <ul>
-                            <li><strong>Dầu cá Omega-3 (2 viên/ngày):</strong> Giảm viêm khớp do tập nặng, tăng nhạy insulin của tế bào cơ.</li>
-                            <li><strong>D3 + K2 (1 viên/sáng):</strong> Tối ưu canxi vào xương, hỗ trợ quá trình sản sinh testosterone tự nhiên.</li>
+                            <li><strong>Dầu cá Omega-3 (2 viên/ngày):</strong> Giảm viêm khớp do tập nặng, tăng nhạy
+                                insulin của tế bào cơ.</li>
+                            <li><strong>D3 + K2 (1 viên/sáng):</strong> Tối ưu canxi vào xương, hỗ trợ quá trình sản
+                                sinh testosterone tự nhiên.</li>
                         </ul>
                     </div>
                 </div>
@@ -593,9 +579,10 @@
             <section id="whole-foods">
                 <h2>03. THỰC PHẨM ĂN THÔ TỰ NHIÊN (WHOLE FOODS)</h2>
                 <p>
-                    Để cơ thể tăng cơ nạc (Lean Bulk) thành công, bạn cần duy trì thặng dư nhẹ khoảng 150-200 kcal/ngày và phân chia tỷ lệ chất dinh dưỡng đa lượng (Macros) như sau:
+                    Để cơ thể tăng cơ nạc (Lean Bulk) thành công, bạn cần duy trì thặng dư nhẹ khoảng 150-200 kcal/ngày
+                    và phân chia tỷ lệ chất dinh dưỡng đa lượng (Macros) như sau:
                 </p>
-                
+
                 <div class="table-container">
                     <table>
                         <thead>
@@ -629,24 +616,30 @@
             <!-- SECTION 4: TIMING -->
             <section id="timing">
                 <h2>04. THỜI ĐIỂM NẠP & PHƯƠNG PHÁP 16/8 FASTING</h2>
-                
+
                 <h3>Bữa ăn trước tập (Pre-workout)</h3>
-                <p>Ăn trước tập 1.5 - 2 tiếng. Nên nạp nguồn Carb phức hợp (khoai lang, yến mạch) kết hợp đạm vừa phải để cơ bắp dự trữ đủ glycogen nâng tạ, tránh ăn béo nhiều gây đầy bụng.</p>
-                
+                <p>Ăn trước tập 1.5 - 2 tiếng. Nên nạp nguồn Carb phức hợp (khoai lang, yến mạch) kết hợp đạm vừa phải
+                    để cơ bắp dự trữ đủ glycogen nâng tạ, tránh ăn béo nhiều gây đầy bụng.</p>
+
                 <h3>Bữa ăn sau tập (Post-workout)</h3>
-                <p>Ăn trong vòng 30 phút - 1 tiếng sau tập. Bổ sung Carb nhanh (chuối chín) + Đạm hấp thu nhanh (Whey/ức gà) để khôi phục nhanh năng lượng bị mất và vá các vết rách cơ.</p>
-                
+                <p>Ăn trong vòng 30 phút - 1 tiếng sau tập. Bổ sung Carb nhanh (chuối chín) + Đạm hấp thu nhanh (Whey/ức
+                    gà) để khôi phục nhanh năng lượng bị mất và vá các vết rách cơ.</p>
+
                 <h3>Đặc biệt: Tập gym sáng khi nhịn ăn gián đoạn (16/8)</h3>
                 <div class="callout">
-                    <div class="callout-icon">
-                        <i class="fa-solid fa-clock"></i>
-                    </div>
                     <div class="callout-text">
                         <h4>MẸO TỐI ƯU GYM SÁNG + NHỊN ĂN SÁNG</h4>
-                        <p>Khoa học chứng minh tập khi nhịn ăn (fasted) không làm mất cơ nếu tổng calo/protein cả ngày đủ. Tuy nhiên, tập nặng bụng rỗng dễ đuối tạ và thiếu đạm sau tập. Giải pháp:</p>
+                        <p>Khoa học chứng minh tập khi nhịn ăn (fasted) không làm mất cơ nếu tổng calo/protein cả ngày
+                            đủ. Tuy nhiên, tập nặng bụng rỗng dễ đuối tạ và thiếu đạm sau tập. Giải pháp:</p>
                         <ul style="list-style: none; margin-top: 10px; padding-left: 0;">
-                            <li style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);"><span style="color:var(--text-primary);">[METHOD 1]</span> Đổi khung ăn 12h-20h sang <strong>10h-18h</strong>. Tập xong lúc 9h30 ăn ngay bữa đầu lúc 10h.</li>
-                            <li style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);"><span style="color:var(--text-primary);">[METHOD 2]</span> Hoặc bẻ luật nhẹ ăn 1 quả chuối + ly cafe không đường trước tập (~90 calo) để khỏe cơ.</li>
+                            <li
+                                style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);">
+                                <span style="color:var(--text-primary);">[METHOD 1]</span> Đổi khung ăn 12h-20h sang
+                                <strong>10h-18h</strong>. Tập xong lúc 9h30 ăn ngay bữa đầu lúc 10h.</li>
+                            <li
+                                style="margin-bottom: 6px; font-size: 0.95rem; color: var(--text-secondary); font-family: var(--font-mono);">
+                                <span style="color:var(--text-primary);">[METHOD 2]</span> Hoặc bẻ luật nhẹ ăn 1 quả
+                                chuối + ly cafe không đường trước tập (~90 calo) để khỏe cơ.</li>
                         </ul>
                     </div>
                 </div>
@@ -655,7 +648,8 @@
             <!-- SECTION 5: DIET 50K -->
             <section id="diet-50k">
                 <h2>05. THỰC ĐƠN TỐI ƯU CHI PHÍ 50.000Đ/NGÀY</h2>
-                <p>Thực đơn tiết kiệm nhưng vẫn đảm bảo 138g Protein chất lượng và khoảng 2120 kcal thặng dư tăng cơ nạc nhẹ:</p>
+                <p>Thực đơn tiết kiệm nhưng vẫn đảm bảo 138g Protein chất lượng và khoảng 2120 kcal thặng dư tăng cơ nạc
+                    nhẹ:</p>
 
                 <div class="table-container">
                     <table>
@@ -749,11 +743,16 @@
                 <h3>⏱️ Lịch trình phân bổ ăn uống</h3>
                 <div class="grid-cards">
                     <div class="card">
-                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[07:30] PRE-WORKOUT:</strong> 2 quả chuối chín + 5g Creatine pha nước lọc.</p>
-                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[10:00] BỮA SÁNG/TRƯA:</strong> 1.5 chén cơm + 125g ức gà áp chảo + Rau muống luộc.</p>
-                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[14:00] BỮA PHỤ CHIỀU:</strong> 1 chén cơm lớn + 2 quả trứng gà ốp la + 1/2 bìa đậu hũ sốt cà chua.</p>
-                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[18:00] BỮA TỐI:</strong> 1.5 chén cơm + 125g ức gà + 1 quả trứng luộc + 1/2 bìa đậu hũ luộc.</p>
-                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[21:00] BỮA PHỤ ĐÊM:</strong> Ăn 1 nắm lạc rang (30g) cung cấp chất béo tốt.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[07:30]
+                                PRE-WORKOUT:</strong> 2 quả chuối chín + 5g Creatine pha nước lọc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[10:00] BỮA
+                                SÁNG/TRƯA:</strong> 1.5 chén cơm + 125g ức gà áp chảo + Rau muống luộc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[14:00] BỮA PHỤ
+                                CHIỀU:</strong> 1 chén cơm lớn + 2 quả trứng gà ốp la + 1/2 bìa đậu hũ sốt cà chua.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[18:00] BỮA TỐI:</strong>
+                            1.5 chén cơm + 125g ức gà + 1 quả trứng luộc + 1/2 bìa đậu hũ luộc.</p>
+                        <p style="font-family: var(--font-mono); font-size: 0.95rem;"><strong>[21:00] BỮA PHỤ
+                                ĐÊM:</strong> Ăn 1 nắm lạc rang (30g) cung cấp chất béo tốt.</p>
                     </div>
                 </div>
             </section>
@@ -925,10 +924,115 @@
                     </table>
                 </div>
             </section>
+        
+            <!-- SECTION 7: CREATINE -->
+            <section id="creatine">
+                <h2>07. GIẢI PHẪU: CREATINE MONOHYDRATE</h2>
+                <div class="callout">
+                    <div class="callout-text">
+                        <h4>Khoa học năng lượng ATP</h4>
+                        <p>Creatine là hợp chất được nghiên cứu lâm sàng nhiều nhất thế giới. Nó không phải là steroid, mà là nguồn cung cấp năng lượng bùng nổ tức thời cho cơ bắp, giúp bạn vượt ngưỡng kiệt sức thêm 1-2 reps.</p>
+                    </div>
+                </div>
+                
+                <h3>Hiểu Lầm Phổ Biến</h3>
+                <div class="grid-cards" style="grid-template-columns: 1fr; border-bottom: 1px solid var(--fg);">
+                    <div class="card" style="border-right: none;">
+                        <div class="card-title-text">Sự thật về Tích Nước</div>
+                        <ul>
+                            <li>Creatine kéo nước <strong>vào sâu bên trong tế bào cơ</strong>, làm cơ bắp căng mọng (Volumization).</li>
+                            <li>Hoàn toàn <strong>không</strong> gây tích nước dưới da, không làm bạn trông "béo nước" hay sưng phù.</li>
+                            <li>Đóng vai trò như tín hiệu đồng hóa, thúc đẩy tổng hợp protein cơ bắp.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Giao Thức Nạp (Dosing Protocol)</h3>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Phương pháp</th>
+                                <th>Liều lượng</th>
+                                <th>Thời gian</th>
+                                <th>Đánh giá</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="highlight-td">Nạp nhanh (Loading)</td>
+                                <td>20g / ngày (chia 4 lần)</td>
+                                <td>5-7 ngày đầu</td>
+                                <td><span class="badge badge-c">Tác dụng ngay</span> nhưng dễ gây khó chịu dạ dày.</td>
+                            </tr>
+                            <tr>
+                                <td class="highlight-td">Nạp đều (Maintenance)</td>
+                                <td>3-5g / ngày</td>
+                                <td>Liên tục, không cần nghỉ</td>
+                                <td><span class="highlight-pro">Khuyên dùng</span> - Bão hòa cơ sau 3-4 tuần, an toàn tuyệt đối.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SECTION 8: LỊCH TẬP -->
+            <section id="lich-tap">
+                <h2>08. LỘ TRÌNH LỊCH TẬP 3 GIAI ĐOẠN</h2>
+                <p>Nguyên lý cốt lõi: <strong>Quá Tải Lũy Tiến (Progressive Overload)</strong>. Mọi giáo án dù khoa học đến đâu cũng thất bại nếu bạn không đẩy nặng hơn, tập nhiều reps hơn, hoặc nghỉ ít hơn so với tuần trước.</p>
+
+                <div class="grid-cards">
+                    <div class="card">
+                        <div class="card-header-row">
+                            <span class="badge badge-a">0 - 6 THÁNG</span>
+                            <span class="badge badge-b">BEGINNER</span>
+                        </div>
+                        <div class="card-title-text">Full Body 3 Ngày</div>
+                        <p>Làm quen chuyển động (Motor Control), xây dựng nền tảng sức mạnh thần kinh.</p>
+                        <ul>
+                            <li>Tập toàn thân: 2-4-6 hoặc 3-5-7</li>
+                            <li>Tập trung bài Đa khớp (Compound)</li>
+                            <li>Squat, Deadlift, Bench Press</li>
+                            <li>Phục hồi cực nhanh</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header-row">
+                            <span class="badge badge-a">6 THÁNG - 2 NĂM</span>
+                            <span class="badge badge-b">INTERMEDIATE</span>
+                        </div>
+                        <div class="card-title-text">Upper/Lower hoặc PPL</div>
+                        <p>Tối đa hóa Phì đại cơ bắp (Hypertrophy) thông qua khối lượng (Volume).</p>
+                        <ul>
+                            <li>Upper/Lower (4 ngày/tuần)</li>
+                            <li>Push/Pull/Legs (6 ngày/tuần)</li>
+                            <li>Tăng bài Cô lập (Isolation)</li>
+                            <li>Bicep Curl, Tricep Extension</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header-row">
+                            <span class="badge badge-a">2 NĂM TRỞ LÊN</span>
+                            <span class="badge badge-b">ADVANCED</span>
+                        </div>
+                        <div class="card-title-text">Bro-Split / Khắc phục</div>
+                        <p>Điêu khắc những điểm yếu (Weak points) hoặc cắt nét siết mỡ thi đấu.</p>
+                        <ul>
+                            <li>Bro-Split (Đập 1 nhóm cơ/ngày)</li>
+                            <li>Chu kỳ hóa (Periodization)</li>
+                            <li>Drop Sets, Superset</li>
+                            <li>Rest-Pause Technique</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
         </main>
     </div>
 
-    <!-- Active sidebar link on scroll -->
+        <!-- Active sidebar link on scroll -->
     <script>
         const sections = document.querySelectorAll("section");
         const navLinks = document.querySelectorAll(".menu-link");
@@ -951,5 +1055,6 @@
             });
         });
     </script>
-</body>
+    </body>
+
 </html>
